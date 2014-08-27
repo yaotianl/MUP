@@ -1,0 +1,416 @@
+2014-08-18 06:51:02 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/book
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-18 06:51:37 Error: [MissingControllerException] Controller class BooksController could not be found.
+Exception Attributes: array (
+  'class' => 'BooksController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/books
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-18 06:51:43 Error: [MissingControllerException] Controller class BooksController could not be found.
+Exception Attributes: array (
+  'class' => 'BooksController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/books/index
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-18 06:51:45 Error: [MissingControllerException] Controller class BooksController could not be found.
+Exception Attributes: array (
+  'class' => 'BooksController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/books/index
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-18 06:52:41 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/Books/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/Books/index.ctp',
+)
+Request URL: /mup/cakephp2/books/index
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-18 06:55:19 Error: [MissingActionException] Action BooksController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view',
+)
+Request URL: /mup/cakephp2/books/view
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-18 06:55:25 Error: [MissingActionException] Action BooksController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view',
+)
+Request URL: /mup/cakephp2/books/view
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-20 00:33:53 Error: [MissingActionException] Action BooksController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view',
+)
+Request URL: /mup/cakephp2/books/view
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-20 01:25:06 Error: [MissingActionException] Action BooksController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view',
+)
+Request URL: /mup/cakephp2/books/view/b
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-20 01:45:08 Error: [MissingActionException] Action BooksController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view',
+)
+Request URL: /mup/cakephp2/books/view
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-20 01:45:12 Error: [MissingActionException] Action BooksController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view',
+)
+Request URL: /mup/cakephp2/books/view
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-20 01:45:46 Error: [NotFoundException] Invalid post
+Request URL: /mup/cakephp2/books/view
+Stack Trace:
+#0 [internal function]: BooksController->view()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-20 01:46:01 Error: [NotFoundException] Invalid post
+Request URL: /mup/cakephp2/books/view
+Stack Trace:
+#0 [internal function]: BooksController->view()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-20 01:48:15 Error: [NotFoundException] Invalid post
+Request URL: /mup/cakephp2/books/view
+Stack Trace:
+#0 [internal function]: BooksController->view()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-20 01:48:58 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/var/www/mup/cakephp2/app/Controller/BooksController.php, line 14]
+2014-08-20 01:48:58 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /mup/cakephp2/books/view/b
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 14, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 14, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-20 01:49:47 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/var/www/mup/cakephp2/app/Controller/BooksController.php, line 14]
+2014-08-20 01:49:47 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /mup/cakephp2/books/view/b
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 14, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 14, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-20 01:49:58 Error: [NotFoundException] Invalid post
+Request URL: /mup/cakephp2/books/view
+Stack Trace:
+#0 [internal function]: BooksController->view()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-20 01:56:40 Error: [NotFoundException] Invalid post
+Request URL: /mup/cakephp2/books/view
+Stack Trace:
+#0 [internal function]: BooksController->view()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-20 03:24:48 Error: [NotFoundException] Invalid post
+Request URL: /mup/cakephp2/books/view
+Stack Trace:
+#0 [internal function]: BooksController->view()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-20 05:02:26 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/var/www/mup/cakephp2/app/View/Books/add.ctp, line 7]
+2014-08-20 05:02:26 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /mup/cakephp2/books/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/mup/ca...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/mup/ca...', 7, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/mup/ca...', 7, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-20 05:53:38 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/mup/cakephp2/app/View/Books/view.ctp, line 9]
+2014-08-20 05:53:38 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /mup/cakephp2/books/view/1
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/mup/ca...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/mup/ca...', 9, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/mup/ca...', 9, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-20 05:53:49 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/mup/cakephp2/app/View/Books/view.ctp, line 9]
+2014-08-20 05:53:49 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /mup/cakephp2/books/view/1
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/mup/ca...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/mup/ca...', 9, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/mup/ca...', 9, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-20 05:53:50 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/mup/cakephp2/app/View/Books/view.ctp, line 9]
+2014-08-20 05:53:50 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /mup/cakephp2/books/view/1
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/mup/ca...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/mup/ca...', 9, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/mup/ca...', 9, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-20 05:57:09 Error: Fatal Error (1): Call to undefined function vardump() in [/var/www/mup/cakephp2/app/View/Books/view.ctp, line 3]
+2014-08-20 05:57:09 Error: [FatalErrorException] Call to undefined function vardump()
+Request URL: /mup/cakephp2/books/view/1
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/mup/ca...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/mup/ca...', 3, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/mup/ca...', 3, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-20 06:39:20 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-20 06:39:54 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/index
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-25 01:56:01 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/users
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-25 01:56:30 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/users
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-25 02:28:10 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/users
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-25 02:33:43 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/Users/index.ctp',
+)
+Request URL: /mup/cakephp2/users
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-25 04:05:54 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/Users/add.ctp',
+)
+Request URL: /mup/cakephp2/users/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-25 04:09:22 Error: [MissingHelperException] Helper class formHelper could not be found.
+Exception Attributes: array (
+  'class' => 'formHelper',
+  'plugin' => false,
+)
+Request URL: /mup/cakephp2/users/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('form')
+#1 /var/www/mup/cakephp2/lib/Cake/View/View.php(837): HelperCollection->__isset('form')
+#2 /var/www/mup/cakephp2/app/View/Users/add.ctp(3): View->__get('form')
+#3 /var/www/mup/cakephp2/lib/Cake/View/View.php(948): include('/var/www/mup/ca...')
+#4 /var/www/mup/cakephp2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/mup/ca...', Array)
+#5 /var/www/mup/cakephp2/lib/Cake/View/View.php(471): View->_render('/var/www/mup/ca...')
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-25 04:10:50 Error: [MissingHelperException] Helper class formHelper could not be found.
+Exception Attributes: array (
+  'class' => 'formHelper',
+  'plugin' => false,
+)
+Request URL: /mup/cakephp2/users/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('form')
+#1 /var/www/mup/cakephp2/lib/Cake/View/View.php(837): HelperCollection->__isset('form')
+#2 /var/www/mup/cakephp2/app/View/Users/add.ctp(3): View->__get('form')
+#3 /var/www/mup/cakephp2/lib/Cake/View/View.php(948): include('/var/www/mup/ca...')
+#4 /var/www/mup/cakephp2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/mup/ca...', Array)
+#5 /var/www/mup/cakephp2/lib/Cake/View/View.php(471): View->_render('/var/www/mup/ca...')
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-25 04:44:06 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/user/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-25 05:17:57 Error: Fatal Error (4): syntax error, unexpected '[', expecting '(' in [/var/www/mup/cakephp2/app/Model/User.php, line 26]
+2014-08-25 05:17:57 Error: [FatalErrorException] syntax error, unexpected '[', expecting '('
+Request URL: /mup/cakephp2/users/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/mup/ca...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/mup/ca...', 26, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/mup/ca...', 26, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-25 05:55:19 Error: [MissingHelperException] Helper class FromHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FromHelper',
+  'plugin' => false,
+)
+Request URL: /mup/cakephp2/users/login
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('From')
+#1 /var/www/mup/cakephp2/lib/Cake/View/View.php(837): HelperCollection->__isset('From')
+#2 /var/www/mup/cakephp2/app/View/Users/login.ctp(7): View->__get('From')
+#3 /var/www/mup/cakephp2/lib/Cake/View/View.php(948): include('/var/www/mup/ca...')
+#4 /var/www/mup/cakephp2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/mup/ca...', Array)
+#5 /var/www/mup/cakephp2/lib/Cake/View/View.php(471): View->_render('/var/www/mup/ca...')
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-25 05:55:30 Error: [MissingHelperException] Helper class FromHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FromHelper',
+  'plugin' => false,
+)
+Request URL: /mup/cakephp2/users/login
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('From')
+#1 /var/www/mup/cakephp2/lib/Cake/View/View.php(837): HelperCollection->__isset('From')
+#2 /var/www/mup/cakephp2/app/View/Users/login.ctp(7): View->__get('From')
+#3 /var/www/mup/cakephp2/lib/Cake/View/View.php(948): include('/var/www/mup/ca...')
+#4 /var/www/mup/cakephp2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/mup/ca...', Array)
+#5 /var/www/mup/cakephp2/lib/Cake/View/View.php(471): View->_render('/var/www/mup/ca...')
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-25 05:55:32 Error: [MissingHelperException] Helper class FromHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FromHelper',
+  'plugin' => false,
+)
+Request URL: /mup/cakephp2/users/login
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('From')
+#1 /var/www/mup/cakephp2/lib/Cake/View/View.php(837): HelperCollection->__isset('From')
+#2 /var/www/mup/cakephp2/app/View/Users/login.ctp(7): View->__get('From')
+#3 /var/www/mup/cakephp2/lib/Cake/View/View.php(948): include('/var/www/mup/ca...')
+#4 /var/www/mup/cakephp2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/mup/ca...', Array)
+#5 /var/www/mup/cakephp2/lib/Cake/View/View.php(471): View->_render('/var/www/mup/ca...')
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

@@ -1,12 +1,19 @@
-<?php 
+<?php
+
 class Book extends AppModel {
+
 	public $name = 'Book';
+
+    public $hasMany = array(
+        'Royalty'
+    );
+
 	public $validate = array(
 		'title'=>array(
-			'rule'=>'alphaNumeric',
-			'required'=>true,
-			'message'=>'The title should be alphaNumeric!'),
+			'rule'=>'notEmpty',
+			'required'=>true),
 		'author1'=>array(
 			'rule'=>'notEmpty'));
 }
+
 ?>

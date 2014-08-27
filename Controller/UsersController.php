@@ -36,6 +36,15 @@ class UsersController extends AppController {
             $this->Session->setFlash("The email and password are not match.");
         }
     }
+
+    public function logout() {
+        $this->Session->delete("User");
+        $this->redirect(array(
+            'controller' => 'home',
+            'action' => 'index'
+        ));
+    }
+
 }
 
 ?>

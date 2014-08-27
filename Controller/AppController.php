@@ -34,8 +34,10 @@ class AppController extends Controller {
 
     public function beforeFilter() {
         parent::beforeFilter();
+        if($this->request->controller = 'home'){
 
-        if($this->request->action != 'login' && !$this->Session->check('User')){
+        }
+        elseif($this->request->action != 'login' && !$this->Session->check('User')){
             $this->Session->setFlash("Please login first");
             $this->redirect(array(
                 'controller'=>'users',

@@ -8,6 +8,7 @@ class ProductionOriginationsController extends AppController {
     }
     public function add() {
         if ($this->request->is('post')) {
+            $this->request->data['ProductionOrigination']['book_id'] = $this->Session->read('Book');
             if ($this->ProductionOrigination->save($this->request->data)) {
                 $this->redirect(array(
                     'controller' => 'printSpecification',

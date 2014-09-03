@@ -1135,3 +1135,126 @@ Request URL: /mup/cakephp2/add
 Stack Trace:
 #0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-09-03 05:23:20 Error: [MissingControllerException] Controller class PrintSpecificationController could not be found.
+Exception Attributes: array (
+  'class' => 'PrintSpecificationController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/printSpecification/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-03 06:16:10 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'startingRate' cannot be null
+Request URL: /mup/cakephp2/royalties/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `mu...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `mu...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1850): DboSource->create(Object(Royalty), Array, Array)
+#4 /var/www/mup/cakephp2/app/Controller/RoyaltiesController.php(13): Model->save(Array)
+#5 [internal function]: RoyaltiesController->add()
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-03 06:17:13 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'startingRate' cannot be null
+Request URL: /mup/cakephp2/royalties/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `mu...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `mu...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1850): DboSource->create(Object(Royalty), Array, Array)
+#4 /var/www/mup/cakephp2/app/Controller/RoyaltiesController.php(13): Model->save(Array)
+#5 [internal function]: RoyaltiesController->add()
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-03 06:17:24 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'startingRate' cannot be null
+Request URL: /mup/cakephp2/royalties/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `mu...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `mu...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1850): DboSource->create(Object(Royalty), Array, Array)
+#4 /var/www/mup/cakephp2/app/Controller/RoyaltiesController.php(13): Model->save(Array)
+#5 [internal function]: RoyaltiesController->add()
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-03 06:17:44 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'rightsIncomeSplit' cannot be null
+Request URL: /mup/cakephp2/royalties/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `mu...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `mu...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1850): DboSource->create(Object(Royalty), Array, Array)
+#4 /var/www/mup/cakephp2/app/Controller/RoyaltiesController.php(13): Model->save(Array)
+#5 [internal function]: RoyaltiesController->add()
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-03 06:27:55 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/mup/cakephp2/app/Controller/RoyaltiesController.php, line 12]
+2014-09-03 06:27:55 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /mup/cakephp2/royalties/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 12, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 12, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 06:29:14 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/mup/cakephp2/app/Controller/RoyaltiesController.php, line 12]
+2014-09-03 06:29:14 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /mup/cakephp2/royalties/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 12, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 12, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 06:29:15 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/mup/cakephp2/app/Controller/RoyaltiesController.php, line 12]
+2014-09-03 06:29:15 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /mup/cakephp2/royalties/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 12, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 12, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 06:37:41 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'rightsIncomeSplit' cannot be null
+Request URL: /mup/cakephp2/royalties/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `mu...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `mu...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1850): DboSource->create(Object(Royalty), Array, Array)
+#4 /var/www/mup/cakephp2/app/Controller/RoyaltiesController.php(15): Model->save(Array)
+#5 [internal function]: RoyaltiesController->add()
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-03 06:44:28 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'startingRate' cannot be null
+Request URL: /mup/cakephp2/royalties/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `mu...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `mu...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1850): DboSource->create(Object(Royalty), Array, Array)
+#4 /var/www/mup/cakephp2/app/Controller/RoyaltiesController.php(13): Model->save(Array)
+#5 [internal function]: RoyaltiesController->add()
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

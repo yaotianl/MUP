@@ -31,7 +31,7 @@ class BooksController extends AppController {
 
     public function test() {
         $this->set('books', $this->Book->find('first', array(
-            'condition'=>array('Book.author1'=>'Yaotian Lin'))));
+            'condition'=>array('Book.author1'=>'lin'))));
     }
 
     public function add() {
@@ -39,7 +39,8 @@ class BooksController extends AppController {
         if ($this->request->is('post')) {
             $this->Book->create();
             if ($this->Book->save($this->request->data)) {
-                $this->Session->write('Book', $this->request->data('Book.id'));
+                $this->Session->write('Book', $this->Book->getLastInsertId());
+                debug($this->Book->getLastInsertId());
                 return $this->redirect(array(
                     'controller'=>'royalties',
                     'action'=>'add'

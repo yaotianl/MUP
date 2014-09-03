@@ -10,6 +10,7 @@ class EditorialOriginationsController extends AppController {
 
     public function add() {
         if ($this->request->is('post')) {
+            $this->request->data['EditorialOrigination']['book_id'] = $this->Session->read('Book');
             if ($this->EditorialOrigination->save($this->request->data)) {
                 $this->redirect(array(
                     'controller'=>'productionOriginations',

@@ -10,6 +10,12 @@ class Book extends AppModel {
         ),
         'PublishingOrigination' => array(
             'ClassName' => 'Origination'
+        ),
+        'EditorialOrigination' => array(
+            'ClassName' => 'Origination'
+        ),
+        'ProductionOrigination' => array(
+            'ClassName' => 'Origination'
         )
     );
 

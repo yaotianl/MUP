@@ -4,8 +4,13 @@ class Book extends AppModel {
 
 	public $name = 'Book';
 
-    public $hasMany = array(
-        'Royalty'
+    public $hasOne = array(
+        'Royalty' => array(
+            'ClassName' => 'Royalty'
+        ),
+        'PublishingOrigination' => array(
+            'ClassName' => 'Origination'
+        )
     );
 
 	public $validate = array(

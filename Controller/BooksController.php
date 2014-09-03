@@ -45,7 +45,7 @@ class BooksController extends AppController {
                     'action'=>'add'
                 ));
             }
-            $this->Session->setFlash('Unable to save');
+            $this->Session->setFlash('Unable to save !');
         }
     }
 }

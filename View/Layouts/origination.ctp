@@ -25,6 +25,12 @@
 
 </div>
 
+<div id="nav_btn">
+    <?php echo $this->Html->link('Publishing', array('controller'=>'publishingOriginations', 'action'=>'add'), array('class' =>'nav_ori')); ?>
+    <?php echo $this->Html->link('Editorial', array('controller'=>'editorialOriginations', 'action'=>'add'), array('class' =>'nav_ori')); ?>
+    <?php echo $this->Html->link('Production', array('controller'=>'productionOriginations', 'action'=>'add'), array('class' =>'nav_ori')); ?>
+
+</div>
 
 <?php echo $this->fetch('content'); ?>
 <footer id="ex_footer">

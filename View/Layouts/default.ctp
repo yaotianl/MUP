@@ -17,8 +17,6 @@
 
 <nav id="ex_navbar">
     <ul>
-        <li><?php echo $this->Html->link('Home', array('controller'=>'home', 'action'=>'index')) ?></li>
-
         <li><?php echo $this->Html->link('Log in', array('controller'=>'users', 'action'=>'login')); ?></li>
     </ul>
 </nav>

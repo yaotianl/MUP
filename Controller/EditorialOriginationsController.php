@@ -4,7 +4,7 @@ class EditorialOriginationsController extends AppController {
 
     public function beforeFilter() {
         parent::beforeFilter();
-        $this->layout = 'origination';
+        $this->layout = 'addABook';
     }
 
 

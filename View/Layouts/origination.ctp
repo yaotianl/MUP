@@ -14,7 +14,7 @@
 
 <div id="ex_navbar">
     <ul>
-        <li><?php echo $this->Html->link('Home', array('controller'=>'books', 'action'=>'index')); ?></li>
+        <li><?php echo $this->Html->link('Home', array('controller'=>'home', 'action'=>'index')); ?></li>
         <li><?php echo $this->Html->link('Royalty & Advance Rate', array('controller'=>'royalties', 'action'=>'add')); ?></li>
         <li><?php echo $this->Html->link('Origination Budget', array('controller'=>'publishingOriginations', 'action'=>'add')); ?></li>
         <li><?php echo $this->Html->link('Print, Price and Publication', array('controller'=>'', 'action'=>'')); ?></li>

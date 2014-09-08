@@ -1,3 +1,4 @@
+
 <h1>Add Editorial Origination</h1>
 <?php
 echo $this->Form->create('EditorialOrigination');

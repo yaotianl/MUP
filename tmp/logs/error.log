@@ -1258,3 +1258,441 @@ Stack Trace:
 #8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
 #9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #10 {main}
+2014-09-08 00:16:44 Error: Fatal Error (4): syntax error, unexpected '{' in [/var/www/mup/cakephp2/app/Controller/AppController.php, line 40]
+2014-09-08 00:16:44 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /mup/cakephp2/users/login
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/mup/ca...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/mup/ca...', 40, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/mup/ca...', 40, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 00:18:08 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/mup/cakephp2/app/Controller/BooksController.php, line 3]
+2014-09-08 00:18:08 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /mup/cakephp2/books/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/mup/ca...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/mup/ca...', 3, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/mup/ca...', 3, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 00:19:46 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/mup/cakephp2/app/Controller/HomeController.php, line 3]
+2014-09-08 00:19:46 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /mup/cakephp2/
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/mup/ca...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/mup/ca...', 3, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/mup/ca...', 3, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 00:24:49 Error: Fatal Error (1): Class 'AppController' not found in [/var/www/mup/cakephp2/app/Controller/UsersController.php, line 3]
+2014-09-08 00:24:49 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /mup/cakephp2/users/home
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', '/var/www/mup/ca...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', '/var/www/mup/ca...', 3, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', '/var/www/mup/ca...', 3, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 00:28:44 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 01:12:16 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 1648858 bytes) in [/var/www/mup/cakephp2/lib/Cake/Utility/Debugger.php, line 610]
+2014-09-08 01:12:16 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 1648858 bytes)
+Request URL: /mup/cakephp2/books/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/mup/ca...', 610)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/mup/ca...', 610, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/mup/ca...', 610, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 01:51:40 Error: [MissingActionException] Action BooksController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view',
+)
+Request URL: /mup/cakephp2/books/view
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-08 01:51:45 Error: [MissingActionException] Action BooksController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view',
+)
+Request URL: /mup/cakephp2/books/view
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-08 01:52:08 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/Books/view_all.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/Books/view_all.ctp',
+)
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 01:52:16 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/Books/view_all.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/Books/view_all.ctp',
+)
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 01:52:18 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/Books/view_all.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/Books/view_all.ctp',
+)
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 01:52:59 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/Books/view_all.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/Books/view_all.ctp',
+)
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 01:53:17 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/Books/view_all.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/Books/view_all.ctp',
+)
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 01:53:18 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/Books/view_all.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/Books/view_all.ctp',
+)
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 01:53:19 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/Books/view_all.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/Books/view_all.ctp',
+)
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 01:54:21 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/Books/view_all.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/Books/view_all.ctp',
+)
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 01:56:11 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/book/edit/42
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 01:59:49 Error: [MissingControllerException] Controller class BooksController could not be found.
+Exception Attributes: array (
+  'class' => 'BooksController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 02:02:48 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/book/edit/42
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 02:05:36 Error: [NotFoundException] Invalid post
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 [internal function]: BooksController->viewAll()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 02:05:50 Error: [NotFoundException] Invalid post
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 [internal function]: BooksController->viewAll()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 02:06:20 Error: [NotFoundException] Invalid post
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 [internal function]: BooksController->viewAll()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 02:06:22 Error: [NotFoundException] Invalid post
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 [internal function]: BooksController->viewAll()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 02:06:23 Error: [NotFoundException] Invalid post
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 [internal function]: BooksController->viewAll()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 02:06:24 Error: [NotFoundException] There is no book currently!
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 [internal function]: BooksController->viewAll()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 02:07:54 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 02:08:05 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 02:08:09 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 02:08:09 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 02:16:19 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mup`.`royalties`, CONSTRAINT `royalties_ibfk_1` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`))
+Request URL: /mup/cakephp2/royalties/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `mu...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `mu...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1850): DboSource->create(Object(Royalty), Array, Array)
+#4 /var/www/mup/cakephp2/app/Controller/RoyaltiesController.php(28): Model->save(Array)
+#5 [internal function]: RoyaltiesController->add()
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-08 02:17:38 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mup`.`royalties`, CONSTRAINT `royalties_ibfk_1` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`))
+Request URL: /mup/cakephp2/royalties/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `mu...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `mu...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1850): DboSource->create(Object(Royalty), Array, Array)
+#4 /var/www/mup/cakephp2/app/Controller/RoyaltiesController.php(29): Model->save(Array)
+#5 [internal function]: RoyaltiesController->add()
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-08 02:22:13 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mup`.`royalties`, CONSTRAINT `royalties_ibfk_1` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`))
+Request URL: /mup/cakephp2/royalties/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `mu...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `mu...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1850): DboSource->create(Object(Royalty), Array, Array)
+#4 /var/www/mup/cakephp2/app/Controller/RoyaltiesController.php(32): Model->save(Array)
+#5 [internal function]: RoyaltiesController->add()
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-08 02:22:19 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mup`.`royalties`, CONSTRAINT `royalties_ibfk_1` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`))
+Request URL: /mup/cakephp2/royalties/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `mu...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `mu...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1850): DboSource->create(Object(Royalty), Array, Array)
+#4 /var/www/mup/cakephp2/app/Controller/RoyaltiesController.php(32): Model->save(Array)
+#5 [internal function]: RoyaltiesController->add()
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-08 02:23:31 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mup`.`royalties`, CONSTRAINT `royalties_ibfk_1` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`))
+Request URL: /mup/cakephp2/royalties/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `mu...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `mu...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1850): DboSource->create(Object(Royalty), Array, Array)
+#4 /var/www/mup/cakephp2/app/Controller/RoyaltiesController.php(32): Model->save(Array)
+#5 [internal function]: RoyaltiesController->add()
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-08 02:29:08 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mup`.`royalties`, CONSTRAINT `royalties_ibfk_1` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`))
+Request URL: /mup/cakephp2/royalties/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `mu...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `mu...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1850): DboSource->create(Object(Royalty), Array, Array)
+#4 /var/www/mup/cakephp2/app/Controller/RoyaltiesController.php(36): Model->save(Array)
+#5 [internal function]: RoyaltiesController->add()
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-08 02:29:38 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mup`.`royalties`, CONSTRAINT `royalties_ibfk_1` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`))
+Request URL: /mup/cakephp2/royalties/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `mu...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `mu...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1850): DboSource->create(Object(Royalty), Array, Array)
+#4 /var/www/mup/cakephp2/app/Controller/RoyaltiesController.php(36): Model->save(Array)
+#5 [internal function]: RoyaltiesController->add()
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-08 02:30:07 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mup`.`royalties`, CONSTRAINT `royalties_ibfk_1` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`))
+Request URL: /mup/cakephp2/royalties/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `mu...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `mu...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1850): DboSource->create(Object(Royalty), Array, Array)
+#4 /var/www/mup/cakephp2/app/Controller/RoyaltiesController.php(37): Model->save(Array)
+#5 [internal function]: RoyaltiesController->add()
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-08 02:31:02 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mup`.`royalties`, CONSTRAINT `royalties_ibfk_1` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`))
+Request URL: /mup/cakephp2/royalties/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `mu...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `mu...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1850): DboSource->create(Object(Royalty), Array, Array)
+#4 /var/www/mup/cakephp2/app/Controller/RoyaltiesController.php(37): Model->save(Array)
+#5 [internal function]: RoyaltiesController->add()
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-08 02:31:25 Error: [NotFoundException] There is no book currently!
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 [internal function]: BooksController->viewAll()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 02:42:04 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

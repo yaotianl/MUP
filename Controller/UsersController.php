@@ -29,7 +29,7 @@ class UsersController extends AppController {
             if($user){
                 $this->Session->write("User", $user);
                 $this->redirect(array(
-                    'controller'=>'books',
+                    'controller'=>'home',
                     'action'=>'index'
                 ));
             }
@@ -40,8 +40,8 @@ class UsersController extends AppController {
     public function logout() {
         $this->Session->delete("User");
         $this->redirect(array(
-            'controller' => 'home',
-            'action' => 'index'
+            'controller' => 'Users',
+            'action' => 'login'
         ));
     }
 

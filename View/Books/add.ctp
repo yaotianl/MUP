@@ -6,11 +6,13 @@
     echo $this->Form->input('title');
     echo $this->Form->input('subtitle');
     echo $this->Form->input('division', array(
-        'options' => array('subsidised', 'non_subsidised'),
+        'type' => 'select',
+        'options' => array('subsidised'=>'subsidised', 'non_subsidised'=>'non_subsidised'),
         'empty' => '(choose one)'
     ));
     echo $this->Form->input('imprint', array(
-        'options' => array('Victory', 'MUP', 'Meigunyah', 'Meanjin', 'Custom', 'Academic Monographs'),
+        'type' => 'select',
+        'options' => array('Victory'=>'Victory', 'MUP'=>'MUP', 'Meigunyah'=>'Meigunyah', 'Meanjin'=>'Meanjin', 'Custom'=>'Custom', 'Academic Monographs'=>'Academic Monographs'),
         'empty' => '(choose one)'
     ));
     echo $this->Form->input('author1');

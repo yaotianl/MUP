@@ -4,7 +4,7 @@ class ProductionOriginationsController extends AppController {
 
     public function beforeFilter() {
         parent::beforeFilter();
-        $this->layout = 'origination';
+        $this->layout = 'addABook';
     }
     public function add() {
         if ($this->request->is('post')) {

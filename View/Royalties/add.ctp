@@ -4,8 +4,8 @@
 
     echo $this->Form->create();
     echo $this->Form->input('royaltyMethod', array(
-        'options' => array("RRP", "NR"),
-        'empty' => 'Choose a method'
+        'options' => array('RRP'=>'RRP', 'NR'=>'NR'),
+        'empty' => '(Choose one)'
     ));
     echo $this->Form->input('advancedPayment');
     echo $this->Form->input('author1Split');
@@ -28,16 +28,16 @@
     echo $this->Form->input('royaltyPayableAfterDiscountRate');
     echo $this->Form->input('remainderRoyaltyRate');
     echo $this->Form->input('payment1OnSigning', array(
-        'options' => array('Quarter', 'Third', 'Half', 'Full', 'N/A'),
-        'empty' => 'choose one'
+        'options' => array('Quarter'=>'Quarter', 'Third'=>'Third', 'Half'=>'Half', 'Full'=>'Full', 'N/A'=>'N/A'),
+        'default' => 'Third'
     ));
-    echo $this->Form->input('payment2OnDelivery', array(
-        'options' => array('Quarter', 'Third', 'Half', 'Full', 'N/A'),
-        'empty' => 'choose one'
+    echo $this->Form->input('payment2OnPublication', array(
+        'options' => array('Quarter'=>'Quarter', 'Third'=>'Third', 'Half'=>'Half', 'Full'=>'Full', 'N/A'=>'N/A'),
+        'default' => 'Third'
     ));
     echo $this->Form->input('payment3OnPublication', array(
-        'options' => array('Quarter', 'Third', 'Half', 'Full', 'N/A'),
-        'empty' => 'choose one'
+        'options' => array('Quarter'=>'Quarter', 'Third'=>'Third', 'Half'=>'Half', 'Full'=>'Full', 'N/A'=>'N/A'),
+        'default' => 'Third'
     ));
 
     echo $this->Form->end('save');

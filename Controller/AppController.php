@@ -34,16 +34,20 @@ class AppController extends Controller {
 
     public function beforeFilter() {
         parent::beforeFilter();
-        if($this->request->controller = 'home'){
-
-        }
-        elseif($this->request->action != 'login' && !$this->Session->check('User')){
+        if($this->request->action != 'login' && !$this->Session->check('User')){
             $this->Session->setFlash("Please login first");
             $this->redirect(array(
                 'controller'=>'users',
                 'action'=>'login'
             ));
         }
+//        if($this->request->controller = 'home'){
+//            $this->redirect(array(
+//                'controller'=>'users',
+//                'action'=>'home'
+//            ));
+//        }
+
     }
 
 }

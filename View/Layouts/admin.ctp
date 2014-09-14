@@ -12,8 +12,8 @@
     <?php echo $this->Html->image('logo.png'); ?>
 </header>
 
-<nav id="ex_navbar">
-    <ul>
+<nav>
+    <ul id="tabmenu">
         <li><?php echo $this->Html->link('Home', array('controller'=>'home', 'action'=>'index')); ?></li>
         <li><?php echo $this->Html->link('Report', array('controller'=>'', 'action'=>'')); ?></li>
         <li><?php echo $this->Html->link('Log out', array('controller'=>'users', 'action'=>'logout')); ?></li>

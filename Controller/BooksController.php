@@ -18,6 +18,36 @@ class BooksController extends AppController {
 	public function index() {
     }
 
+    public function edit($id = null) {
+
+        $this->layout = 'editABook';
+
+
+        if(!$id) {
+            throw new NotFoundException(__('Invalid book'));
+        }
+        // $book = $this->Book->findByID($id);
+        $book = $this->Book->find('first', array(
+            'condition'=>array('Book.id'=>$id)));
+
+        if(!$book) {
+            throw new NotFoundException(__('Invalid book'));
+        }
+
+        $this->Session->write('book_id', $id);
+
+        if($this->request->is(array('post', 'put'))) {
+            $this->Book->id = $id;
+            if($this->Book->save($this->request->data)) {
+                $this->Session->setFlash('The book has been updated!');
+            }
+        }
+
+        if(!$this->request->data) {
+            $this->request->data = $book;
+        }
+    }
+
 	public function viewAll() {
         $book = $this->Book->find('all');
         if (!$book) {

@@ -1696,3 +1696,1049 @@ Request URL: /mup/cakephp2/add
 Stack Trace:
 #0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-09-08 03:50:31 Error: [NotFoundException] There is no book currently!
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 [internal function]: BooksController->viewAll()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 03:51:46 Error: [MissingActionException] Action BooksController::view_all() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view_all',
+)
+Request URL: /mup/cakephp2/books/view_all
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-08 03:52:16 Error: [MissingActionException] Action BooksController::view_all() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view_all',
+)
+Request URL: /mup/cakephp2/books/view_all
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-08 03:52:20 Error: [MissingActionException] Action BooksController::view_all() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view_all',
+)
+Request URL: /mup/cakephp2/books/view_all
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-08 03:52:35 Error: [MissingActionException] Action BooksController::view_all() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view_all',
+)
+Request URL: /mup/cakephp2/books/view_all
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-08 03:52:39 Error: [MissingActionException] Action BooksController::view_all() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view_all',
+)
+Request URL: /mup/cakephp2/books/view_all
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-08 03:53:01 Error: [MissingActionException] Action BooksController::view_all() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'view_all',
+)
+Request URL: /mup/cakephp2/books/view_all
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-08 03:53:07 Error: [NotFoundException] There is no book currently!
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 [internal function]: BooksController->viewAll()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 03:55:24 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/book/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 03:56:19 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/book/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 03:56:24 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/book/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 03:56:33 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/book/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 03:57:00 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/book/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 03:57:07 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/book/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 03:57:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 03:57:20 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/book/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 03:57:22 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/book/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 03:57:37 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/book/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 03:57:38 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/book/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 03:57:48 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 03:58:45 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:02:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:02:23 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:02:25 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:04:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:05:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:05:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:06:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:06:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:06:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:06:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:06:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:06:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:06:45 Error: [MissingControllerException] Controller class BooksController could not be found.
+Exception Attributes: array (
+  'class' => 'BooksController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 04:06:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:06:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:07:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:07:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:07:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:08:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:08:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:08:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:08:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:08:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:11:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:11:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:13:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:13:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:14:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(25): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:21:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Book.i_d' in 'where clause'
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(808): DboSource->query('findByID', Array, Object(Book))
+#8 /var/www/mup/cakephp2/app/Controller/BooksController.php(26): Model->__call('findByID', Array)
+#9 /var/www/mup/cakephp2/app/Controller/BooksController.php(26): Book->findByID('44')
+#10 [internal function]: BooksController->edit('44')
+#11 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#12 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#14 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-09-08 04:36:05 Error: [MissingHelperException] Helper class SeeionHelper could not be found.
+Exception Attributes: array (
+  'class' => 'SeeionHelper',
+  'plugin' => false,
+)
+Request URL: /mup/cakephp2/books/edit/44
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Seeion')
+#1 /var/www/mup/cakephp2/lib/Cake/View/View.php(837): HelperCollection->__isset('Seeion')
+#2 /var/www/mup/cakephp2/app/View/Layouts/editABook.ctp(18): View->__get('Seeion')
+#3 /var/www/mup/cakephp2/lib/Cake/View/View.php(948): include('/var/www/mup/ca...')
+#4 /var/www/mup/cakephp2/lib/Cake/View/View.php(910): View->_evaluate('/var/www/mup/ca...', Array)
+#5 /var/www/mup/cakephp2/lib/Cake/View/View.php(542): View->_render('/var/www/mup/ca...')
+#6 /var/www/mup/cakephp2/lib/Cake/View/View.php(479): View->renderLayout('', 'editABook')
+#7 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#9 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#10 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-09-08 04:52:10 Error: [NotFoundException] Invalid book
+Request URL: /mup/cakephp2/royalties/edit
+Stack Trace:
+#0 [internal function]: RoyaltiesController->edit()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 04:52:18 Error: [NotFoundException] Invalid book
+Request URL: /mup/cakephp2/royalties/edit
+Stack Trace:
+#0 [internal function]: RoyaltiesController->edit()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 04:53:08 Error: [NotFoundException] Invalid book
+Request URL: /mup/cakephp2/royalties/edit
+Stack Trace:
+#0 [internal function]: RoyaltiesController->edit()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 04:53:19 Error: [NotFoundException] Invalid book
+Request URL: /mup/cakephp2/royalties/edit
+Stack Trace:
+#0 [internal function]: RoyaltiesController->edit()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 04:53:47 Error: [NotFoundException] Invalid book
+Request URL: /mup/cakephp2/royalties/edit
+Stack Trace:
+#0 [internal function]: RoyaltiesController->edit()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 04:54:33 Error: [NotFoundException] Invalid book
+Request URL: /mup/cakephp2/royalties/edit
+Stack Trace:
+#0 [internal function]: RoyaltiesController->edit()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 04:58:53 Error: [NotFoundException] Invalid book
+Request URL: /mup/cakephp2/royalties/edit
+Stack Trace:
+#0 [internal function]: RoyaltiesController->edit()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 04:58:56 Error: [NotFoundException] Invalid book
+Request URL: /mup/cakephp2/royalties/edit
+Stack Trace:
+#0 [internal function]: RoyaltiesController->edit()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 05:01:25 Error: Fatal Error (1): Call to a member function write() on a non-object in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 19]
+2014-09-08 05:01:25 Error: [FatalErrorException] Call to a member function write() on a non-object
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 05:02:20 Error: Fatal Error (1): Call to a member function write() on a non-object in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 19]
+2014-09-08 05:02:20 Error: [FatalErrorException] Call to a member function write() on a non-object
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 05:02:24 Error: Fatal Error (1): Call to a member function write() on a non-object in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 19]
+2014-09-08 05:02:24 Error: [FatalErrorException] Call to a member function write() on a non-object
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 05:02:25 Error: Fatal Error (1): Call to a member function write() on a non-object in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 19]
+2014-09-08 05:02:25 Error: [FatalErrorException] Call to a member function write() on a non-object
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 05:02:27 Error: Fatal Error (1): Call to a member function write() on a non-object in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 19]
+2014-09-08 05:02:27 Error: [FatalErrorException] Call to a member function write() on a non-object
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 05:02:33 Error: Fatal Error (1): Call to a member function write() on a non-object in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 19]
+2014-09-08 05:02:33 Error: [FatalErrorException] Call to a member function write() on a non-object
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 05:04:26 Error: Fatal Error (1): Call to a member function write() on a non-object in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 19]
+2014-09-08 05:04:26 Error: [FatalErrorException] Call to a member function write() on a non-object
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 05:06:36 Error: Fatal Error (1): Call to a member function write() on a non-object in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 19]
+2014-09-08 05:06:36 Error: [FatalErrorException] Call to a member function write() on a non-object
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 05:06:38 Error: Fatal Error (1): Call to a member function write() on a non-object in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 19]
+2014-09-08 05:06:38 Error: [FatalErrorException] Call to a member function write() on a non-object
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 05:06:39 Error: Fatal Error (1): Call to a member function write() on a non-object in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 19]
+2014-09-08 05:06:39 Error: [FatalErrorException] Call to a member function write() on a non-object
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 05:07:02 Error: [NotFoundException] Invalid book
+Request URL: /mup/cakephp2/royalties/edit
+Stack Trace:
+#0 [internal function]: RoyaltiesController->edit()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(RoyaltiesController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RoyaltiesController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 05:12:10 Error: [NotFoundException] Invalid book
+Request URL: /mup/cakephp2/books/edit
+Stack Trace:
+#0 [internal function]: BooksController->edit()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 05:12:17 Error: [NotFoundException] Invalid book
+Request URL: /mup/cakephp2/books/edit
+Stack Trace:
+#0 [internal function]: BooksController->edit()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 05:12:36 Error: [NotFoundException] Invalid book
+Request URL: /mup/cakephp2/books/edit
+Stack Trace:
+#0 [internal function]: BooksController->edit()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 05:12:37 Error: [NotFoundException] Invalid book
+Request URL: /mup/cakephp2/books/edit
+Stack Trace:
+#0 [internal function]: BooksController->edit()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 05:14:44 Error: [MissingControllerException] Controller class PrintSpecificationController could not be found.
+Exception Attributes: array (
+  'class' => 'PrintSpecificationController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/printSpecification/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 05:38:08 Error: [MissingActionException] Action PublishingOriginationsController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'PublishingOriginationsController',
+  'action' => 'edit',
+)
+Request URL: /mup/cakephp2/publishingOriginations/edit
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PublishingOriginationsController), Object(CakeRequest))
+#2 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-08 06:21:01 Error: [MissingControllerException] Controller class ViewAllController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewAllController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 09:48:46 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

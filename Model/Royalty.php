@@ -13,5 +13,7 @@ class Royalty extends AppModel {
         'rightsIncomeSplit'=>array(
             'rule'=>'notEmpty'
         ));
+
+
 }
 ?>

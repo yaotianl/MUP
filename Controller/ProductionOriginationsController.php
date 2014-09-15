@@ -15,7 +15,8 @@ class ProductionOriginationsController extends AppController {
                     'action' => 'add'
                 ));
             }
-            $this->Session->setFlash('Unable to save!');
+            else
+                $this->Session->setFlash('Unable to save!');
         }
     }
 }

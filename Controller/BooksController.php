@@ -18,6 +18,40 @@ class BooksController extends AppController {
 	public function index() {
     }
 
+	public function viewAll() {
+        $book = $this->Book->find('all');
+        if (!$book) {
+            throw new NotFoundException(__('There is no book currently!'));
+        }
+        //debug($book);
+        $this->set('books', $book);
+    }	
+
+    public function test() {
+        $this->set('books', $this->Book->find('first', array(
+            'condition'=>array('Book.author1'=>'lin'))));
+    }
+
+    public function add() {
+        $this->layout = 'addABook';
+        if ($this->request->is('post')) {
+
+            if ($this->Book->save($this->request->data)) {
+                //debug($this->request->data);
+
+                $this->Session->write('Book', $this->Book->getLastInsertId());
+                //debug($this->Book->getLastInsertId());
+                return $this->redirect(array(
+                    'controller'=>'royalties',
+                    'action'=>'add'
+                ));
+            }
+            else
+                $this->Session->setFlash('Unable to save !');
+        }
+    }
+
+
     public function edit($id = null) {
 
         $this->layout = 'editABook';
@@ -45,37 +79,6 @@ class BooksController extends AppController {
 
         if(!$this->request->data) {
             $this->request->data = $book;
-        }
-    }
-
-	public function viewAll() {
-        $book = $this->Book->find('all');
-        if (!$book) {
-            throw new NotFoundException(__('There is no book currently!'));
-        }
-        //debug($book);
-        $this->set('books', $book);
-    }	
-
-    public function test() {
-        $this->set('books', $this->Book->find('first', array(
-            'condition'=>array('Book.author1'=>'lin'))));
-    }
-
-    public function add() {
-        $this->layout = 'addABook';
-        if ($this->request->is('post')) {
-            debug($this->request->data);
-            $this->Book->create();
-            if ($this->Book->save($this->request->data)) {
-                $this->Session->write('Book', $this->Book->getLastInsertId());
-                debug($this->Book->getLastInsertId());
-                return $this->redirect(array(
-                    'controller'=>'royalties',
-                    'action'=>'add'
-                ));
-            }
-            $this->Session->setFlash('Unable to save !');
         }
     }
 }

@@ -3,30 +3,35 @@
 <h1>Add Book</h1>
 <?php
     echo $this->Form->create('Book');
-    echo $this->Form->input('title');
-    echo $this->Form->input('subtitle');
+    echo $this->Form->input('title', array('class'=>'input1', 'label'=>array('class'=>'label1')));
+    echo $this->Form->input('subtitle', array('class'=>'input1', 'label'=>array('class'=>'label1')));
     echo $this->Form->input('division', array(
         'type' => 'select',
         'options' => array('subsidised'=>'subsidised', 'non_subsidised'=>'non_subsidised'),
-        'empty' => '(choose one)'
+        'empty' => '(choose one)',
+        'class' => 'input1',
+        'label' => array('class'=>'label1')
     ));
     echo $this->Form->input('imprint', array(
         'type' => 'select',
         'options' => array('Victory'=>'Victory', 'MUP'=>'MUP', 'Meigunyah'=>'Meigunyah', 'Meanjin'=>'Meanjin', 'Custom'=>'Custom', 'Academic Monographs'=>'Academic Monographs'),
-        'empty' => '(choose one)'
+        'empty' => '(choose one)',
+        'class' => 'input1',
+        'label' => array('class'=>'label1')
     ));
-    echo $this->Form->input('author1');
-    echo $this->Form->input('author2');
-    echo $this->Form->input('author3');
-    echo $this->Form->input('author4');
-    echo $this->Form->input('publisher');
-    echo $this->Form->input('contractNumber');
-    echo $this->Form->input('ISBN');
-    echo $this->Form->input('publishcationDate', array(
+    echo $this->Form->input('author1', array('class'=>'input1', 'label'=>array('class'=>'label1')));
+    echo $this->Form->input('author2', array('class'=>'input1', 'label'=>array('class'=>'label1')));
+    echo $this->Form->input('author3', array('class'=>'input1', 'label'=>array('class'=>'label1')));
+    echo $this->Form->input('author4', array('class'=>'input1', 'label'=>array('class'=>'label1')));
+    echo $this->Form->input('publisher', array('class'=>'input1', 'label'=>array('class'=>'label1')));
+    echo $this->Form->input('contractNumber', array('class'=>'input1', 'label'=>array('class'=>'label1')));
+    echo $this->Form->input('ISBN', array('class'=>'input1', 'label'=>array('class'=>'label1')));
+    echo $this->Form->input('publicationsDate', array(
         'type' => 'date',
         'dateFormat' => 'DMY',
-        'minYear' => date('Y'),
-        'maxYear' => date('Y') + 18
+        'class' => 'date1',
+        'label' => array('class'=>'label1')
     ));
     echo $this->Form->end('Save Book');
+    echo $this->element('sql_dump');
 ?>

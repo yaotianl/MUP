@@ -2742,3 +2742,141 @@ Request URL: /mup/cakephp2/add
 Stack Trace:
 #0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-09-14 06:23:29 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-14 07:00:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/jquery.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-14 11:06:04 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-14 11:07:03 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'initialPrintRun' cannot be null
+Request URL: /mup/cakephp2/printSpecifications/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `mu...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `mu...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1850): DboSource->create(Object(PrintSpecification), Array, Array)
+#4 /var/www/mup/cakephp2/app/Controller/PrintSpecificationsController.php(13): Model->save(Array)
+#5 [internal function]: PrintSpecificationsController->add()
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PrintSpecificationsController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PrintSpecificationsController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-09-14 12:20:53 Error: Fatal Error (1): Call to a member function format() on a non-object in [/var/www/mup/cakephp2/app/Model/Book.php, line 33]
+2014-09-14 12:20:53 Error: [FatalErrorException] Call to a member function format() on a non-object
+Request URL: /mup/cakephp2/books/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 33, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 33, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-14 12:21:13 Error: Fatal Error (1): Call to a member function format() on a non-object in [/var/www/mup/cakephp2/app/Model/Book.php, line 33]
+2014-09-14 12:21:13 Error: [FatalErrorException] Call to a member function format() on a non-object
+Request URL: /mup/cakephp2/books/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 33, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 33, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-14 12:22:20 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/mup/cakephp2/app/Model/Book.php, line 35]
+2014-09-14 12:22:20 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /mup/cakephp2/books/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/mup/ca...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/mup/ca...', 35, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/mup/ca...', 35, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-14 12:22:28 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/mup/cakephp2/app/Model/Book.php, line 35]
+2014-09-14 12:22:28 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /mup/cakephp2/books/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/mup/ca...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/mup/ca...', 35, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/mup/ca...', 35, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-14 12:22:30 Error: Fatal Error (1): Call to a member function format() on a non-object in [/var/www/mup/cakephp2/app/Model/Book.php, line 33]
+2014-09-14 12:22:30 Error: [FatalErrorException] Call to a member function format() on a non-object
+Request URL: /mup/cakephp2/books/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 33, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 33, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-14 12:22:31 Error: Fatal Error (1): Call to a member function format() on a non-object in [/var/www/mup/cakephp2/app/Model/Book.php, line 33]
+2014-09-14 12:22:31 Error: [FatalErrorException] Call to a member function format() on a non-object
+Request URL: /mup/cakephp2/books/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 33, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 33, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-14 12:22:35 Error: Fatal Error (1): Call to a member function format() on a non-object in [/var/www/mup/cakephp2/app/Model/Book.php, line 33]
+2014-09-14 12:22:35 Error: [FatalErrorException] Call to a member function format() on a non-object
+Request URL: /mup/cakephp2/books/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 33, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 33, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-14 12:28:51 Error: [MissingControllerException] Controller class BooksController could not be found.
+Exception Attributes: array (
+  'class' => 'BooksController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/books/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-14 13:23:21 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-14 13:23:25 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

@@ -25,6 +25,7 @@ class Book extends AppModel {
 			'required'=>true),
 		'author1'=>array(
 			'rule'=>'notEmpty'));
+
 }
 
 ?>

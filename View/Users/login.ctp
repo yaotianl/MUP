@@ -2,8 +2,8 @@
 <?php
 
     echo $this->Form->create();
-    echo $this->Form->input('email');
-    echo $this->Form->input('password');
+    echo $this->Form->input('email', array('class'=>'input1', 'label'=>array('class'=>'label1')));
+    echo $this->Form->input('password', array('class'=>'input1', 'label'=>array('class'=>'label1')));
     echo $this->Form->end('Authenticate');
 
 ?>

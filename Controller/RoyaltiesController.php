@@ -15,15 +15,23 @@ class RoyaltiesController extends AppController {
             $this->Session->setFlash('Please create the book first!');
             return;
         }
+        $count = $this->Royalty->find('count', array(
+            'conditions'=>array('Royalty.book_id'=>$this->Session->read('Book'))
+        ));
+        if($count != 0) {
+            return $this->redirect(array(
+                'controller'=>'royalties',
+                'action'=>'edit',
+                1
+            ));
+        }
         if ($this->request->is('POST')) {
             $this->request->data['Royalty']['book_id'] = $this->Session->read('Book');
 //            debug($this->request->data);
 //            debug($this->Royalty->save($this->request->data));
 
             // Avoid creating many Royalty for one book
-            $count = $this->Royalty->find('count', array(
-                'conditions'=>array('Royalty.book_id'=>$this->Session->read('Book'))
-            ));
+
             if ($count == 0) {
                 if ($this->Royalty->save($this->request->data)) {
                     return $this->redirect(array(
@@ -40,16 +48,18 @@ class RoyaltiesController extends AppController {
         }
     }
 
-    public function edit() {
+    public function edit($option = 0) {
+        if ($option == 0) {
+            $this->layout = 'editABook';
+        }
         $book_id = $this->Session->read('book_id');
-        $this->layout = 'editABook';
 
         if(!$book_id) {
             throw new NotFoundException(__('Invalid book'));
         }
         // $book = $this->Book->findByID($id);
         $royalty = $this->Royalty->find('first', array(
-            'condition'=>array('Royalty.book_id'=>$book_id)));
+            'conditions'=>array('Royalty.book_id'=>$book_id)));
 
         if(!$royalty) {
             throw new NotFoundException(__('Invalid book'));
@@ -58,8 +68,10 @@ class RoyaltiesController extends AppController {
         if($this->request->is(array('post', 'put'))) {
             //$this->Royalty->id = $id;
             if($this->Royalty->save($this->request->data)) {
-                $this->Session->setFlash('The book has been updated!');
+
             }
+            else
+                $this->Session->setFlash('Update failed!');
         }
 
         if(!$this->request->data) {

@@ -3123,3 +3123,98 @@ Request URL: /mup/cakephp2/salesForecasts/add
 Stack Trace:
 #0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-09-17 07:24:32 Error: [MissingControllerException] Controller class PublicationOriginationsController could not be found.
+Exception Attributes: array (
+  'class' => 'PublicationOriginationsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/publicationOriginations/edit/1
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-17 07:25:12 Error: [MissingControllerException] Controller class PublicationOriginationsController could not be found.
+Exception Attributes: array (
+  'class' => 'PublicationOriginationsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/publicationOriginations/edit/1
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-17 07:25:14 Error: [MissingControllerException] Controller class PublicationOriginationsController could not be found.
+Exception Attributes: array (
+  'class' => 'PublicationOriginationsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/publicationOriginations/edit/1
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-17 07:25:15 Error: [MissingControllerException] Controller class PublicationOriginationsController could not be found.
+Exception Attributes: array (
+  'class' => 'PublicationOriginationsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/publicationOriginations/edit/1
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-17 07:25:18 Error: [MissingControllerException] Controller class PublicationOriginationsController could not be found.
+Exception Attributes: array (
+  'class' => 'PublicationOriginationsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/publicationOriginations/edit/1
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-17 07:25:28 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/mup/cakephp2/app/Controller/PublishingOriginationsController.php, line 65]
+2014-09-17 07:25:28 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /mup/cakephp2/publishingOriginations/edit/1
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 65, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 65, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-17 07:26:17 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/mup/cakephp2/app/Controller/PublishingOriginationsController.php, line 65]
+2014-09-17 07:26:17 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /mup/cakephp2/publishingOriginations/edit/1
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 65, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 65, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-17 07:26:19 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/mup/cakephp2/app/Controller/PublishingOriginationsController.php, line 65]
+2014-09-17 07:26:19 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /mup/cakephp2/publishingOriginations/edit/1
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 65, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 65, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-17 07:26:20 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/mup/cakephp2/app/Controller/PublishingOriginationsController.php, line 65]
+2014-09-17 07:26:20 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /mup/cakephp2/publishingOriginations/edit/1
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 65, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 65, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-17 07:26:35 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/mup/cakephp2/app/Controller/PublishingOriginationsController.php, line 65]
+2014-09-17 07:26:35 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /mup/cakephp2/publishingOriginations/edit/1
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 65, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 65, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

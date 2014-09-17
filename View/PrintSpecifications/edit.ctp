@@ -5,6 +5,7 @@ echo $this->Html->script('auto_unit');
 
 
 echo $this->Form->create('PrintSpecification');
+echo $this->Form->input('id', array('type'=>'hidden'));
 echo $this->Form->input('RRP', array('class'=>'input1', 'label'=>array('class'=>'label', 'text'=>'RRP including GST*')));
 echo '<br><div id="block"><label> Print Specification </label></div><br>';
 
@@ -37,6 +38,6 @@ echo $this->Form->input('totalPrintRuns', array('class'=>'input_t', 'label'=>arr
 echo $this->Form->input('totalPrintQuotations', array('class'=>'input_t', 'label'=>array('class'=>'label1'), 'readonly'=>'readonly'));
 echo $this->Form->input('averageUnitCost', array('class'=>'input1', 'label'=>array('class'=>'label1'), 'readonly'=>'readonly'));
 
-echo $this->Form->end('Save');
+echo $this->Form->end('Update');
 
 ?>

@@ -16,22 +16,37 @@ class BooksController extends AppController {
     }
 
 	public function index() {
+        debug($this->Book->find('all'));
     }
 
-	public function viewAll() {
+    public function viewBusinessCase() {
+
+    }
+    /**
+     * @throws NotFoundException
+     * View all the forecasts in the database
+     */
+    public function viewAll() {
         $book = $this->Book->find('all');
         if (!$book) {
             throw new NotFoundException(__('There is no book currently!'));
         }
         //debug($book);
         $this->set('books', $book);
-    }	
-
-    public function test() {
-        $this->set('books', $this->Book->find('first', array(
-            'condition'=>array('Book.author1'=>'lin'))));
     }
 
+    /**
+     * just for test purpose
+     */
+    public function test() {
+        $this->set('books', $this->Book->find('first', array(
+            'conditions'=>array('Book.author1'=>'lin'))));
+    }
+
+    /**
+     * Add a new book table, refer to excel's Title Particulars
+     * Move the Publication Date file here to help the future sorting
+     */
     public function add() {
         $this->layout = 'addABook';
         if ($this->request->is('post')) {
@@ -51,7 +66,11 @@ class BooksController extends AppController {
         }
     }
 
-
+    /**
+     * @param null $id
+     * @throws NotFoundException
+     * Editing the existing forecast details
+     */
     public function edit($id = null) {
 
         $this->layout = 'editABook';

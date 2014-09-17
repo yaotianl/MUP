@@ -11,7 +11,7 @@ echo $this->Form->input('legalFee', array('class'=>'input1', 'label'=>array('cla
 echo $this->Form->input('other', array('class'=>'input1', 'label'=>array('class'=>'label1')));
 echo $this->Form->input('titleSpecificSubsidy', array('class'=>'input2', 'label'=>array('class'=>'label1')));
 echo $this->Form->input('source', array('class'=>'input1', 'label'=>array('class'=>'label1')));
-echo $this->Form->input('totalPublishing', array('class'=>'total', 'label'=>array('class'=>'label1')));
+echo $this->Form->input('totalPublishing', array('class'=>'total', 'label'=>array('class'=>'label1'), 'readonly'=>'readonly'));
 
 echo $this->Form->end('Save');
 ?>

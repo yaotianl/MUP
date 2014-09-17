@@ -7,19 +7,32 @@ class RoyaltiesController extends AppController {
         $this->layout = 'addABook';
     }
 
+    /**
+     * Add a Royalty table and link to the existing book, make sure we can only create one.
+     */
     public function add() {
         if ($this->request->is('POST')) {
             $this->request->data['Royalty']['book_id'] = $this->Session->read('Book');
-            debug($this->request->data);
-            debug($this->Royalty->save($this->request->data));
-            if ($this->Royalty->save($this->request->data)) {
-                return $this->redirect(array(
-                    'controller'=>'publishingOriginations',
-                    'action'=>'add'
-                ));
+//            debug($this->request->data);
+//            debug($this->Royalty->save($this->request->data));
+
+            // Avoid creating many Royalty for one book
+            $count = $this->Royalty->find('count', array(
+                'conditions'=>array('Royalty.book_id'=>$this->Session->read('Book'))
+            ));
+            if ($count == 0) {
+                if ($this->Royalty->save($this->request->data)) {
+                    return $this->redirect(array(
+                        'controller'=>'publishingOriginations',
+                        'action'=>'add'
+                    ));
+                }
+                else
+                    $this->Session->setFlash('Unable to save! ');
             }
             else
-                $this->Session->setFlash('Unable to save! ');
+                $this->Session->setFlash('You already created Royalty, please edit on editing section !');
+
         }
     }
 

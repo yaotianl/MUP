@@ -16,6 +16,12 @@ class Book extends AppModel {
         ),
         'ProductionOrigination' => array(
             'ClassName' => 'Origination'
+        ),
+        'PrintSpecification' => array(
+            'ClassName' => 'Print'
+        ),
+        'SalesForecast' => array(
+            'ClassName' => 'Sale'
         )
     );
 

@@ -20,18 +20,18 @@
             <li><?php echo $this->Html->link('Origination Budget', array('controller'=>'publishingOriginations', 'action'=>'edit')); ?>
                 <ul>
                     <li>
-                        <?php echo $this->Html->link('Publishing', array('controller'=>'publishingOriginations', 'action'=>'add')); ?>
+                        <?php echo $this->Html->link('Publishing', array('controller'=>'publishingOriginations', 'action'=>'edit')); ?>
                     </li>
                     <li>
-                        <?php echo $this->Html->link('Editorial', array('controller'=>'editorialOriginations', 'action'=>'add')); ?>
+                        <?php echo $this->Html->link('Editorial', array('controller'=>'editorialOriginations', 'action'=>'edit')); ?>
                     </li>
                     <li>
-                        <?php echo $this->Html->link('Production', array('controller'=>'productionOriginations', 'action'=>'add')); ?>
+                        <?php echo $this->Html->link('Production', array('controller'=>'productionOriginations', 'action'=>'edit')); ?>
                     </li>
                 </ul>
             </li>
-            <li><?php echo $this->Html->link('Print, Price and Publication', array('controller'=>'', 'action'=>'edit')); ?></li>
-            <li><?php echo $this->Html->link('Sales Forecast', array('controller'=>'', 'action'=>'edit')); ?></li>
+            <li><?php echo $this->Html->link('Print, Price and Publication', array('controller'=>'printSpecifications', 'action'=>'edit')); ?></li>
+            <li><?php echo $this->Html->link('Sales Forecast', array('controller'=>'salesForecasts', 'action'=>'edit')); ?></li>
             <li><?php echo $this->Html->link('Title Business Case Budget', array('controller'=>'', 'action'=>'')); ?></li>
             <li><?php echo $this->Html->link('Log out', array('controller'=>'users', 'action'=>'logout')); ?></li>
         </ul>

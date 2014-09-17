@@ -2880,3 +2880,151 @@ Request URL: /mup/cakephp2/add
 Stack Trace:
 #0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-09-15 00:18:49 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-15 00:19:23 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-15 00:20:38 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-15 00:20:42 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-15 00:23:14 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-15 00:56:53 Error: [MissingControllerException] Controller class SalesForecastsController could not be found.
+Exception Attributes: array (
+  'class' => 'SalesForecastsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/salesForecasts/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-15 01:03:08 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/mup/cakephp2/app/View/SalesForecasts/add.ctp, line 113]
+2014-09-15 01:03:08 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /mup/cakephp2/salesForecasts/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/mup/ca...', 113)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/mup/ca...', 113, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/mup/ca...', 113, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-15 01:03:10 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/mup/cakephp2/app/View/SalesForecasts/add.ctp, line 113]
+2014-09-15 01:03:10 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /mup/cakephp2/salesForecasts/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/mup/ca...', 113)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/mup/ca...', 113, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/mup/ca...', 113, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-15 01:07:16 Error: [MissingControllerException] Controller class PrintSpecificationController could not be found.
+Exception Attributes: array (
+  'class' => 'PrintSpecificationController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/printSpecification/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-15 01:12:02 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/book
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-17 00:21:42 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-17 00:51:52 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/mup/cakephp2/app/Controller/SalesForecastsController.php, line 18]
+2014-09-17 00:51:52 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /mup/cakephp2/salesForecasts/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/mup/ca...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/mup/ca...', 18, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/mup/ca...', 18, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-17 01:43:55 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/mup/cakephp2/app/Model/EditorialOrigination.php, line 12]
+2014-09-17 01:43:55 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /mup/cakephp2/editorialOriginations/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 12, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 12, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-17 02:21:07 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-17 03:43:17 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-17 04:23:49 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

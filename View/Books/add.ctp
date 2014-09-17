@@ -3,8 +3,8 @@
 <h1>Add Book</h1>
 <?php
     echo $this->Form->create('Book');
-    echo $this->Form->input('title', array('class'=>'input1', 'label'=>array('class'=>'label1')));
-    echo $this->Form->input('subtitle', array('class'=>'input1', 'label'=>array('class'=>'label1')));
+    echo $this->Form->input('title', array('class'=>'input1', 'label'=>array('class'=>'label1', 'text'=>'Title Name')));
+    echo $this->Form->input('subtitle', array('class'=>'input1', 'label'=>array('class'=>'label1', 'text'=>'Sub Title')));
     echo $this->Form->input('division', array(
         'type' => 'select',
         'options' => array('subsidised'=>'subsidised', 'non_subsidised'=>'non_subsidised'),
@@ -29,6 +29,8 @@
     echo $this->Form->input('publicationsDate', array(
         'type' => 'date',
         'dateFormat' => 'DMY',
+        'minYear' => date('Y'),
+        'maxYear' => date('Y') + 18,
         'class' => 'date1',
         'label' => array('class'=>'label1')
     ));

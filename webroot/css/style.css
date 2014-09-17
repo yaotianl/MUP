@@ -11,14 +11,49 @@ body {
 section, header, footer, aside, nav, article{
     display: block;
 }
-
+#block {
+    background:orange;
+    font-size: 12px;
+    width: 120px;
+    padding: 8px;
+}
 .label1 {
     vertical-align: middle;
     margin-bottom : 15px;
     line-height: 25px;
 }
 
-.input1, .input2, .total {
+.input1, .input2 {
+    position: absolute;
+    left:250px;
+    vertical-align: middle;
+    background: white;
+    border: 1px double #DDD;
+    /*border-radius: 5px;*/
+    box-shadow: 0 0 5px #333;
+    color: #666;
+    outline: none;
+    height:20px;
+    width: 275px;
+    margin-left: 30px;
+}
+
+.total {
+    position: absolute;
+    left:250px;
+    vertical-align: middle;
+    background: greenyellow;
+    border: 1px double #DDD;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #333;
+    color: #666;
+    outline: none;
+    height:20px;
+    width: 275px;
+    margin-left: 30px;
+}
+
+.unit {
     position: absolute;
     left:250px;
     vertical-align: middle;
@@ -32,6 +67,81 @@ section, header, footer, aside, nav, article{
     width: 275px;
     margin-left: 30px;
 }
+.input_im {
+    position: absolute;
+    left:250px;
+    vertical-align: middle;
+    background: #ffff00;
+    border: 1px double #DDD;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #333;
+    color: #666;
+    outline: none;
+    height:20px;
+    width: 275px;
+    margin-left: 30px;
+}
+
+.labela {
+    vertical-align: middle;
+    margin-bottom : 15px;
+    line-height: 25px;
+    background: lightskyblue;
+}
+.input_a,
+.input_c {
+    vertical-align: middle;
+    background: #ffff00;
+    border: 1px double #DDD;
+    box-shadow: 0 0 5px #333;
+    color: #666;
+    outline: none;
+    height:20px;
+    width: 150px;
+    margin-left: 30px;
+}
+
+.input_b,
+.input_d {
+    vertical-align: middle;
+    background: greenyellow;
+    border: 1px double #DDD;
+    box-shadow: 0 0 5px #333;
+    color: #666;
+    outline: none;
+    height:20px;
+    width: 150px;
+    margin-left: 30px;
+}
+.num, .quo {
+    background: #ffff00;
+    position: absolute;
+    left:250px;
+    vertical-align: middle;
+    border: 1px double #DDD;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #333;
+    color: #666;
+    outline: none;
+    height:20px;
+    width: 275px;
+    margin-left: 30px;
+}
+.input_t {
+    background: greenyellow;
+    position: absolute;
+    left:250px;
+    vertical-align: middle;
+    border: 1px double #DDD;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #333;
+    color: #666;
+    outline: none;
+    height:20px;
+    width: 275px;
+    margin-left: 30px;
+}
+
 .date1 {
     vertical-align: middle;
     background: white;

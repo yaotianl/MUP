@@ -11,17 +11,30 @@ class PublishingOriginationsController extends AppController {
 
     }
 
+    /**
+     * Add a PublishingOrigination table and link to the existing book, make sure we can only create one.
+     */
     public function add() {
         if ($this->request->is('post')) {
             $this->request->data['PublishingOrigination']['book_id'] = $this->Session->read('Book');
-            if ($this->PublishingOrigination->save($this->request->data)) {
-                $this->redirect(array(
-                    'controller' => 'editorialOriginations',
-                    'action' => 'add'
-                ));
+
+            // Avoid creating many PublishingOrigination for one book
+            $count = $this->PublishingOrigination->find('count', array(
+                'conditions'=>array('PublishingOrigination.book_id'=>$this->Session->read('Book'))
+            ));
+            if ($count == 0) {
+                if ($this->PublishingOrigination->save($this->request->data)) {
+                    $this->redirect(array(
+                        'controller' => 'editorialOriginations',
+                        'action' => 'add'
+                    ));
+                }
+                else
+                    $this->Session->setFlash('Unable to save!');
             }
             else
-                $this->Session->setFlash('Unable to save!');
+                $this->Session->setFlash('You already created PublishingOrigination, please edit on editing section !');
+
         }
     }
 

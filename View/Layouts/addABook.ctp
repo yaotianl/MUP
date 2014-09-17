@@ -21,7 +21,6 @@
     <div>
         <ul id="tabmenu">
             <li><?php echo $this->Html->link('Home', array('controller'=>'home', 'action'=>'index')); ?></li>
-            <li><?php echo $this->Html->link('Title', array('controller'=>'books', 'action'=>'add')); ?></li>
             <li><?php echo $this->Html->link('Royalty & Advance Rate', array('controller'=>'royalties', 'action'=>'add')); ?></li>
             <li><?php echo $this->Html->link('Origination Budget', array('controller'=>'publishingOriginations', 'action'=>'add')); ?>
                 <ul>
@@ -37,18 +36,18 @@
                 </ul>
             </li>
             <li><?php echo $this->Html->link('Print, Price and Publication', array('controller'=>'printSpecifications', 'action'=>'add')); ?></li>
-            <li><?php echo $this->Html->link('Sales Forecast', array('controller'=>'', 'action'=>'')); ?></li>
+            <li><?php echo $this->Html->link('Sales Forecast', array('controller'=>'salesForecasts', 'action'=>'add')); ?></li>
             <li><?php echo $this->Html->link('Title Business Case Budget', array('controller'=>'', 'action'=>'')); ?></li>
             <li><?php echo $this->Html->link('Log out', array('controller'=>'users', 'action'=>'logout')); ?></li>
         </ul>
     </div>
 </header>
 
-<div id="ex_main">
-    <div id="content">
-        <?php echo $this->fetch('content'); ?>
-    </div>
+
+<div id="content">
+    <?php echo $this->fetch('content'); ?>
 </div>
+
 
 
 <footer id="ex_footer">

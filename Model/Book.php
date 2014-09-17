@@ -22,6 +22,9 @@ class Book extends AppModel {
         ),
         'SalesForecast' => array(
             'ClassName' => 'Sale'
+        ),
+        'BusinessCaseBudget' => array(
+            'ClassName' => 'Budget'
         )
     );
 

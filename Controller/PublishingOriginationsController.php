@@ -15,6 +15,13 @@ class PublishingOriginationsController extends AppController {
      * Add a PublishingOrigination table and link to the existing book, make sure we can only create one.
      */
     public function add() {
+        if ($this->Session->read('Book') == null) {
+            $this->Session->setFlash('Please create the book first!');
+            return;
+        }
+//        $count = $this->PublishingOrigination->find('count', array(
+//            'conditions'=>array('PublishingOrigination.book_id'=>$this->Session->read('Book'))
+//        ));
         if ($this->request->is('post')) {
             $this->request->data['PublishingOrigination']['book_id'] = $this->Session->read('Book');
 

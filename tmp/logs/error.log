@@ -3028,3 +3028,98 @@ Request URL: /mup/cakephp2/add
 Stack Trace:
 #0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-09-17 05:04:52 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/mup/cakephp2/app/Controller/PublishingOriginationsController.php, line 49]
+2014-09-17 05:04:52 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /mup/cakephp2/publishingOriginations/edit
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 49)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 49, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 49, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-17 05:22:55 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-17 05:23:01 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-17 05:23:19 Error: [MissingControllerException] Controller class BusinessCaseBudgetController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessCaseBudgetController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/businessCaseBudget
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-17 05:23:36 Error: [MissingControllerException] Controller class BusinessCaseBudgetController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessCaseBudgetController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/businessCaseBudget
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-17 05:23:43 Error: [MissingControllerException] Controller class BusinessCaseBudgetsController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessCaseBudgetsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/businessCaseBudgets
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-17 05:24:10 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/mup/cakephp2/app/Controller/BusinessCaseBudgetsController.php, line 16]
+2014-09-17 05:24:10 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /mup/cakephp2/businessCaseBudgets
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 16, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 16, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-17 05:26:01 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/BusinessCaseBudgets/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/BusinessCaseBudgets/index.ctp',
+)
+Request URL: /mup/cakephp2/businessCaseBudgets
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BusinessCaseBudgetsController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-17 05:34:16 Error: [MissingControllerException] Controller class BusinessCaseBudgetController could not be found.
+Exception Attributes: array (
+  'class' => 'BusinessCaseBudgetController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/businessCaseBudget
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-17 05:34:53 Error: [MissingControllerException] Controller class SalesForecastsController could not be found.
+Exception Attributes: array (
+  'class' => 'SalesForecastsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/salesForecasts/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

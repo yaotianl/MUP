@@ -323,7 +323,8 @@ ul#tabmenu ul li.subActive a, ul#tabmenu ul li a:hover
 
 #content {
     padding: 20px;
-    margin: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
 
 }
 
@@ -331,4 +332,16 @@ ul#tabmenu ul li.subActive a, ul#tabmenu ul li a:hover
 
 li.active {
     color: #ffff00;
+}
+
+#flashMessage {
+    background: red;
+    font: initial;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    color: darkblue;
+    border-radius: 50px;
+    box-shadow: 0 0 5px #585858;
+    width: 500px;
 }

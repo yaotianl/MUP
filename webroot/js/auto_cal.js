@@ -20,11 +20,22 @@ function calculateTotal( src ) {
             sum2 += val;
         }
     });
-
-    form.find('input#SalesForecastTotalReceipts').val(sum2);
     form.find('input#SalesForecastTotalUnits').val(sum);
+    form.find('input#SalesForecastTotalReceipts').val(sum2);
+
+    // Update Stock Write Down, and SubscriptionRatio
     var total = parseInt($('form#print').find('input#total').val());
-    form.find('input#SalesForecastTotalReceipts').val(total-sum);
+    if (!isNaN(sum) && !isNaN(total)) {
+        form.find('input#SalesForecastStockWriteDown').val(total-sum);
+        form.find('input#SalesForecastSubscriptionRatio').val((sum/total*100).toFixed(2));
+    }
+    //Update Subscription Ratio
+    var avg = parseFloat($('form#print').find('input#avgUnitCost').val());
+    if(!isNaN(avg) && !isNaN(sum) && !isNaN(total)) {
+        var ratio = 0
+        ratio = -1*((total-sum)/avg);
+        form.find('input#SalesForecastStockWriteDownReceipts').val(ratio.toFixed(2));
+    }
 
 }
 function calculateReceipt( src ) {

@@ -11,6 +11,10 @@ class RoyaltiesController extends AppController {
      * Add a Royalty table and link to the existing book, make sure we can only create one.
      */
     public function add() {
+        if ($this->Session->read('Book') == null) {
+            $this->Session->setFlash('Please create the book first!');
+            return;
+        }
         if ($this->request->is('POST')) {
             $this->request->data['Royalty']['book_id'] = $this->Session->read('Book');
 //            debug($this->request->data);

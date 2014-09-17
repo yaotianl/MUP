@@ -8,6 +8,10 @@
         <div>
             <label class="label1">Expected Total Print Runs </label><input type="text" class="input1" id='total' value="<?php echo $book['PrintSpecification']['totalPrintRuns']; ?>" disabled>
         </div>
+
+        <div>
+            <label class="label1">Average Unit Cost </label><input type="text" class="input1" id='avgUnitCost' value="<?php echo $book['PrintSpecification']['averageUnitCost']; ?>" disabled>
+        </div>
     </form>
 
 </div>
@@ -139,13 +143,13 @@ echo $this->Html->tableCells(array(
 
 echo $this->Html->tableCells(array(
     $this->Form->label('SalesForecast.subscriptionRatio', 'Subscription Ratio', 'label_a'),
-    $this->Form->text('subscriptionRatio', array('class'=>'input_c')),
+    $this->Form->text('subscriptionRatio', array('class'=>'input_c', 'readonly'=>'readonly')),
 ));
 
 echo $this->Html->tableCells(array(
     $this->Form->end('Save')
 ));
-//echo $this->element('sql_dump');
+echo $this->element('sql_dump');
 ?>
 
 </table>

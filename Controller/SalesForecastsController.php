@@ -11,6 +11,14 @@ class SalesForecastsController extends AppController {
      * Add a SaleForecast table and link to the existing book, make sure we can only create one.
      */
     public function add() {
+        if ($this->Session->read('Book') == null) {
+            $this->Session->setFlash('Please create the book first!');
+            $book['PrintSpecification']['RRP'] = 'NaN';
+            $book['PrintSpecification']['totalPrintRuns'] = 'NaN';
+            $book['PrintSpecification']['averageUnitCost'] = 'NaN';
+            $this->set('book', $book);
+            return;
+        }
 //        debug($this->SalesForecast->Book->find('all'));
 //                'conditions'=>array('Book.id'=>'3')
 //            ))
@@ -21,13 +29,11 @@ class SalesForecastsController extends AppController {
         if ($book==null) {
             $book['PrintSpecification']['RRP'] = 'NaN';
             $book['PrintSpecification']['totalPrintRuns'] = 'NaN';
-
+            $book['PrintSpecification']['averageUnitCost'] = 'NaN';
         }
         $this->set('book', $book);
         if ($this->request->is('POST')) {
-            $this->request->data['SaleForecast']['book_id'] = $this->Session->read('Book');
-
-            debug($this->request->data);
+            $this->request->data['SalesForecast']['book_id'] = $this->Session->read('Book');
 
             // Avoid creating many SalesForecast for one book
             $count = $this->SalesForecast->find('count', array(
@@ -36,7 +42,7 @@ class SalesForecastsController extends AppController {
             if ($count == 0) {
                 if ($this->SalesForecast->save($this->request->data)) {
                     return $this->redirect(array(
-                        'controller'=>'home',
+                        'controller'=>'businessCaseBudgets',
                         'action'=>'index'
                     ));
                 }

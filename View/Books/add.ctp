@@ -3,12 +3,11 @@
 <h1>Add Book</h1>
 <?php
     echo $this->Form->create('Book');
-    echo $this->Form->input('title', array('class'=>'input1', 'label'=>array('class'=>'label1', 'text'=>'Title Name')));
+    echo $this->Form->input('title', array('class'=>'input1', 'label'=>array('class'=>'label1', 'text'=>'Title Name*')));
     echo $this->Form->input('subtitle', array('class'=>'input1', 'label'=>array('class'=>'label1', 'text'=>'Sub Title')));
     echo $this->Form->input('division', array(
         'type' => 'select',
-        'options' => array('subsidised'=>'subsidised', 'non_subsidised'=>'non_subsidised'),
-        'empty' => '(choose one)',
+        'options' => array('non_subsidised'=>'non_subsidised', 'subsidised'=>'subsidised'),
         'class' => 'input1',
         'label' => array('class'=>'label1')
     ));
@@ -19,7 +18,7 @@
         'class' => 'input1',
         'label' => array('class'=>'label1')
     ));
-    echo $this->Form->input('author1', array('class'=>'input1', 'label'=>array('class'=>'label1')));
+    echo $this->Form->input('author1', array('class'=>'input1', 'label'=>array('class'=>'label1', 'text'=>'Author1*')));
     echo $this->Form->input('author2', array('class'=>'input1', 'label'=>array('class'=>'label1')));
     echo $this->Form->input('author3', array('class'=>'input1', 'label'=>array('class'=>'label1')));
     echo $this->Form->input('author4', array('class'=>'input1', 'label'=>array('class'=>'label1')));

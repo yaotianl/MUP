@@ -5,7 +5,7 @@ echo $this->Html->script('auto_unit');
 
 
 echo $this->Form->create('PrintSpecification');
-echo $this->Form->input('RRP', array('class'=>'input1', 'label'=>array('class'=>'label', 'text'=>'RRP including GST')));
+echo $this->Form->input('RRP', array('class'=>'input1', 'label'=>array('class'=>'label', 'text'=>'RRP including GST*')));
 echo '<br><div id="block"><label> Print Specification </label></div><br>';
 
 echo $this->Form->input('printerLocation', array('options'=>array(
@@ -21,8 +21,8 @@ echo $this->Form->input('cover', array('options'=>array(
 echo $this->Form->input('extent', array('class'=>'input1', 'label'=>array('class'=>'label1')));
 echo $this->Form->input('format', array('class'=>'input1', 'label'=>array('class'=>'label1')));
 echo '<br><div id="block"><label> Print Run Budget </label></div><br>';
-echo $this->Form->input('initialPrintRun', array('class'=>'num', 'label'=>array('class'=>'label1')));
-echo $this->Form->input('printQuote', array('class'=>'quo', 'label'=>array('class'=>'label1')));
+echo $this->Form->input('initialPrintRun', array('class'=>'num', 'label'=>array('class'=>'label1', 'text'=>'Initial Print Run*')));
+echo $this->Form->input('printQuote', array('class'=>'quo', 'label'=>array('class'=>'label1', 'text'=>'Print Quote*')));
 echo $this->Form->input('unitCost', array('class'=>'unit', 'label'=>array('class'=>'label1'), 'readonly'=>'readonly'));
 
 echo $this->Form->input('1stReprint', array('class'=>'num', 'label'=>array('class'=>'label1')));

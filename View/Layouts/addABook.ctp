@@ -7,7 +7,6 @@
     echo $this->Html->css('style');
     echo $this->Html->script('jquery');
     //
-    echo $this->Session->flash();
     ?>
 
 </head>
@@ -37,7 +36,7 @@
             </li>
             <li><?php echo $this->Html->link('Print, Price and Publication', array('controller'=>'printSpecifications', 'action'=>'add')); ?></li>
             <li><?php echo $this->Html->link('Sales Forecast', array('controller'=>'salesForecasts', 'action'=>'add')); ?></li>
-            <li><?php echo $this->Html->link('Title Business Case Budget', array('controller'=>'', 'action'=>'')); ?></li>
+            <li><?php echo $this->Html->link('Title Business Case Budget', array('controller'=>'businessCaseBudgets', 'action'=>'index')); ?></li>
             <li><?php echo $this->Html->link('Log out', array('controller'=>'users', 'action'=>'logout')); ?></li>
         </ul>
     </div>
@@ -45,7 +44,10 @@
 
 
 <div id="content">
-    <?php echo $this->fetch('content'); ?>
+    <?php
+    echo $this->Session->flash();
+    echo $this->fetch('content');
+    ?>
 </div>
 
 

@@ -11,6 +11,10 @@ class EditorialOriginationsController extends AppController {
      * Add a EditorialOrigination table and link to the existing book, make sure we can only create one.
      */
     public function add() {
+        if ($this->Session->read('Book') == null) {
+            $this->Session->setFlash('Please create the book first!');
+            return;
+        }
         if ($this->request->is('post')) {
             $this->request->data['EditorialOrigination']['book_id'] = $this->Session->read('Book');
 

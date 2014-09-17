@@ -48,6 +48,7 @@ class BooksController extends AppController {
      * Move the Publication Date file here to help the future sorting
      */
     public function add() {
+        $this->Session->delete('Book');
         $this->layout = 'addABook';
         if ($this->request->is('post')) {
 

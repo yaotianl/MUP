@@ -6,18 +6,14 @@ echo $this->Html->script('auto_rrp');
 
 
 echo $this->Form->create('PrintSpecification');
-echo $this->Form->input('RRP', array('class'=>'input1', 'value'=>24.99, 'label'=>array('class'=>'label', 'text'=>'RRP including GST*')));
+echo $this->Form->input('RRP', array('class'=>'input1', 'value'=>24.99, 'label'=>array('class'=>'label1', 'text'=>'RRP including GST*')));
+echo $this->Form->input('RRPEbook', array('class'=>'input1', 'label'=>array('class'=>'label1', 'text'=>'RRP for Ebook*')));
 echo '<br><div id="block"><label> Print Specification </label></div><br>';
 
 echo $this->Form->input('printerLocation', array('options'=>array(
     'Offshore'=>'Offshore', 'Local'=>'Local'),
     'default'=>'Local',
     'class'=>'input1', 'label'=>array('class'=>'label1')));
-echo $this->Form->input('text', array('class'=>'input1', 'label'=>array('class'=>'label1')));
-echo $this->Form->input('GSM', array('class'=>'input1', 'label'=>array('class'=>'label1')));
-echo $this->Form->input('black&WhiteIllus', array('class'=>'input1', 'label'=>array('class'=>'label1')));
-echo $this->Form->input('colorIllus', array('class'=>'input1', 'label'=>array('class'=>'label1')));
-echo $this->Form->input('cover', array('class'=>'input1', 'label'=>array('class'=>'label1')));
 echo $this->Form->input('extent', array('class'=>'input1', 'value'=>200, 'label'=>array('class'=>'label1')));
 echo $this->Form->input('format', array(
     'options'=>array('Paper Back (PB)'=>'Paper Back (PB)','Hard Back (HB)'=>'Hard Back (HB)','Trade Paper Back'=>'Trade Paper Back', 'Electronic'=>'Electronic', 'POD'=>'POD'),

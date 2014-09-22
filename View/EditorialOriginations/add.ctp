@@ -11,6 +11,8 @@ echo $this->Form->input('writerFee', array('class'=>'input1', 'label'=>array('cl
 echo $this->Form->input('externalEditorial', array('class'=>'input1', 'label'=>array('class'=>'label1')));
 echo $this->Form->input('maps', array('class'=>'input1', 'label'=>array('class'=>'label1')));
 echo $this->Form->input('factChecking', array('class'=>'input1', 'label'=>array('class'=>'label1')));
+echo $this->Form->input('managementFee', array('class'=>'input1', 'label'=>array('class'=>'label1')));
+echo $this->Form->input('legalFee', array('class'=>'input1', 'label'=>array('class'=>'label1')));
 echo $this->Form->input('other', array('class'=>'input1', 'label'=>array('class'=>'label1')));
 echo $this->Form->input('totalEditorial', array('class'=>'total', 'label'=>array('class'=>'label1'), 'readonly'=>'readonly'));
 echo $this->Form->end('Save');

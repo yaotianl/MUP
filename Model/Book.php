@@ -8,9 +8,6 @@ class Book extends AppModel {
         'Royalty' => array(
             'ClassName' => 'Royalty'
         ),
-        'PublishingOrigination' => array(
-            'ClassName' => 'Origination'
-        ),
         'EditorialOrigination' => array(
             'ClassName' => 'Origination'
         ),

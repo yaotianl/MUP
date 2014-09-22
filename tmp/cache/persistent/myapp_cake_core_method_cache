@@ -1,2 +1,2 @@
-1411361581
-a:2:{s:4:"name";a:8:{s:32:"be1fb63747812ead63061311dad85b2b";s:5:"`mup`";s:32:"47eb7bb09414c64f779510914712b6ee";s:7:"`count`";s:32:"b26312f48583f98a40462102f1d83127";s:30:"`PrintSpecification`.`book_id`";s:32:"d20cc9bac7c7be183dd3b2885c9e57c7";s:11:"`Book`.`id`";s:32:"22fdce213c9875edfafb1065557de0d1";s:22:"`print_specifications`";s:32:"4d9ec8fd08f114f72ad6b679f59b73ed";s:6:"`Book`";s:32:"10740a0595a1a3e87ac91af74c4ce9ab";s:7:"`books`";s:32:"e2ffc08cb4f68096b1a453d9f6ca1556";s:20:"`PrintSpecification`";}s:6:"fields";a:1:{s:32:"911be1e5d273353534c2a80c50b222a3";a:1:{i:0;s:19:"COUNT(*) AS `count`";}}}
+1411385067
+a:1:{s:4:"name";a:2:{s:32:"be1fb63747812ead63061311dad85b2b";s:5:"`mup`";s:32:"22fdce213c9875edfafb1065557de0d1";s:22:"`print_specifications`";}}

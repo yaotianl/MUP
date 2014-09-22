@@ -17,11 +17,8 @@
         <ul id="tabmenu">
             <li><?php echo $this->Html->link('Home', array('controller'=>'home', 'action'=>'index')); ?></li>
             <li><?php echo $this->Html->link('Royalty & Advance Rate', array('controller'=>'royalties', 'action'=>'edit')); ?></li>
-            <li><?php echo $this->Html->link('Origination Budget', array('controller'=>'publishingOriginations', 'action'=>'edit')); ?>
+            <li><?php echo $this->Html->link('Origination Budget', array('controller'=>'editorialOriginations', 'action'=>'edit')); ?>
                 <ul>
-                    <li>
-                        <?php echo $this->Html->link('Publishing', array('controller'=>'publishingOriginations', 'action'=>'edit')); ?>
-                    </li>
                     <li>
                         <?php echo $this->Html->link('Editorial', array('controller'=>'editorialOriginations', 'action'=>'edit')); ?>
                     </li>

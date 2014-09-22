@@ -27,9 +27,9 @@ class SalesForecastsController extends AppController {
             'conditions'=>array('Book.id'=>$this->Session->read('Book'))
         ));
         if ($book==null) {
-            $book['PrintSpecification']['RRP'] = 'NaN';
-            $book['PrintSpecification']['totalPrintRuns'] = 'NaN';
-            $book['PrintSpecification']['averageUnitCost'] = 'NaN';
+            $book['PrintSpecification']['RRP'] = 0;
+            $book['PrintSpecification']['totalPrintRuns'] = 0;
+            $book['PrintSpecification']['averageUnitCost'] = 0;
         }
         $this->set('book', $book);
 
@@ -77,9 +77,9 @@ class SalesForecastsController extends AppController {
             'conditions'=>array('Book.id'=>$this->Session->read('Book'))
         ));
         if ($book==null) {
-            $book['PrintSpecification']['RRP'] = 'NaN';
-            $book['PrintSpecification']['totalPrintRuns'] = 'NaN';
-            $book['PrintSpecification']['averageUnitCost'] = 'NaN';
+            $book['PrintSpecification']['RRP'] = 0;
+            $book['PrintSpecification']['totalPrintRuns'] = 0;
+            $book['PrintSpecification']['averageUnitCost'] = 0;
         }
         $this->set('book', $book);
         $salesForecast = $this->SalesForecast->find('first', array(

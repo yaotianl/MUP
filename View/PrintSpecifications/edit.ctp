@@ -2,7 +2,7 @@
 <br>
 <?php
 echo $this->Html->script('auto_unit');
-
+echo $this->Html->script('auto_rrp');
 
 echo $this->Form->create('PrintSpecification');
 echo $this->Form->input('id', array('type'=>'hidden'));

@@ -32,13 +32,22 @@ class SalesForecastsController extends AppController {
             $book['PrintSpecification']['averageUnitCost'] = 'NaN';
         }
         $this->set('book', $book);
+
+        // Avoid creating many SalesForecast for one book
+        $count = $this->SalesForecast->find('count', array(
+            'conditions'=>array('SalesForecast.book_id'=>$this->Session->read('Book'))
+        ));
+        if($count != 0) {
+            return $this->redirect(array(
+                'controller'=>'salesForecasts',
+                'action'=>'edit',
+                1
+            ));
+        }
+        // Otherwise, we just add the new record.
         if ($this->request->is('POST')) {
             $this->request->data['SalesForecast']['book_id'] = $this->Session->read('Book');
 
-            // Avoid creating many SalesForecast for one book
-            $count = $this->SalesForecast->find('count', array(
-                'conditions'=>array('SalesForecast.book_id'=>$this->Session->read('Book'))
-            ));
             if ($count == 0) {
                 if ($this->SalesForecast->save($this->request->data)) {
                     return $this->redirect(array(
@@ -55,9 +64,39 @@ class SalesForecastsController extends AppController {
         }
     }
 
-    public function edit() {
-        $book_id = $this->Session->read('book_id');
-        $this->layout = 'editABook';
+    public function edit($option = 0) {
+        if ($option == 0) {
+            $this->layout = 'editABook';
+        }
+
+        $book_id = $this->Session->read('Book');
+        if(!$book_id) {
+            throw new NotFoundException(__('Invalid book'));
+        }
+        $book = $this->SalesForecast->Book->find('first', array(
+            'conditions'=>array('Book.id'=>$this->Session->read('Book'))
+        ));
+        if ($book==null) {
+            $book['PrintSpecification']['RRP'] = 'NaN';
+            $book['PrintSpecification']['totalPrintRuns'] = 'NaN';
+            $book['PrintSpecification']['averageUnitCost'] = 'NaN';
+        }
+        $this->set('book', $book);
+        $salesForecast = $this->SalesForecast->find('first', array(
+            'conditions'=>array('SalesForecast.book_id'=>$book_id)));
+
+
+        if($this->request->is(array('post', 'put'))) {
+            $this->request->data['SalesForecast']['book_id'] = $book_id;
+            if($this->SalesForecast->save($this->request->data)) {
+            }
+            else
+                $this->Session->setFlash('Update failed!');
+        }
+
+        if(!$this->request->data) {
+            $this->request->data = $salesForecast;
+        }
     }
 }
 

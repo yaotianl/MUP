@@ -17,7 +17,7 @@
 </div>
 
 <?php
-echo $this->Html->script('auto_cal');
+echo $this->Html->script('auto_cal_add');
 echo $this->Form->create('SalesForecast');
 ?>
 <table>
@@ -149,7 +149,7 @@ echo $this->Html->tableCells(array(
 echo $this->Html->tableCells(array(
     $this->Form->end('Save')
 ));
-echo $this->element('sql_dump');
+//echo $this->element('sql_dump');
 ?>
 
 </table>

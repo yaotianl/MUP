@@ -57,7 +57,7 @@ class PublishingOriginationsController extends AppController {
         if ($option == 0) {
             $this->layout = 'editABook';
         }
-        $book_id = $this->Session->read('book_id');
+        $book_id = $this->Session->read('Book');
 
         if(!$book_id) {
             throw new NotFoundException(__('Invalid book'));
@@ -66,11 +66,9 @@ class PublishingOriginationsController extends AppController {
         $publishingOrigination = $this->PublishingOrigination->find('first', array(
             'conditions'=>array('PublishingOrigination.book_id'=>$book_id)));
 
-        if(!$publishingOrigination) {
-            throw new NotFoundException(__('Invalid book'));
-        }
 
         if($this->request->is(array('post', 'put'))) {
+            $this->request->data['PublishingOrigination']['book_id'] = $book_id;
             if($this->PublishingOrigination->save($this->request->data)) {
             }
             else

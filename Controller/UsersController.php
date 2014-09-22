@@ -33,7 +33,8 @@ class UsersController extends AppController {
                     'action'=>'index'
                 ));
             }
-            $this->Session->setFlash("The email and password are not match.");
+            else
+                $this->Session->setFlash("The email and password are not match.");
         }
     }
 

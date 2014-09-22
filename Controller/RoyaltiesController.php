@@ -52,7 +52,7 @@ class RoyaltiesController extends AppController {
         if ($option == 0) {
             $this->layout = 'editABook';
         }
-        $book_id = $this->Session->read('book_id');
+        $book_id = $this->Session->read('Book');
 
         if(!$book_id) {
             throw new NotFoundException(__('Invalid book'));
@@ -61,12 +61,10 @@ class RoyaltiesController extends AppController {
         $royalty = $this->Royalty->find('first', array(
             'conditions'=>array('Royalty.book_id'=>$book_id)));
 
-        if(!$royalty) {
-            throw new NotFoundException(__('Invalid book'));
-        }
 
         if($this->request->is(array('post', 'put'))) {
             //$this->Royalty->id = $id;
+            $this->request->data['Royalty']['book_id'] = $book_id;
             if($this->Royalty->save($this->request->data)) {
 
             }

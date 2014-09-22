@@ -17,13 +17,22 @@ section, header, footer, aside, nav, article{
     width: 120px;
     padding: 8px;
 }
+
+.printRun {
+    position: absolute;
+    width: 400px;
+    left: 600px;
+    top: 170px;
+
+}
+
 .label1 {
     vertical-align: middle;
     margin-bottom : 15px;
     line-height: 25px;
 }
 
-.input1, .input2 {
+.input1 {
     position: absolute;
     left:250px;
     vertical-align: middle;
@@ -37,7 +46,20 @@ section, header, footer, aside, nav, article{
     width: 275px;
     margin-left: 30px;
 }
-
+.input2 {
+    position: absolute;
+    left:250px;
+    vertical-align: middle;
+    background: #ffffff;
+    border: 1px double #DDD;
+    /*border-radius: 5px;*/
+    box-shadow: 0 0 5px #333;
+    color: red;
+    outline: none;
+    height:20px;
+    width: 275px;
+    margin-left: 30px;
+}
 .total {
     position: absolute;
     left:250px;

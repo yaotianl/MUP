@@ -82,13 +82,13 @@ class BooksController extends AppController {
         }
         // $book = $this->Book->findByID($id);
         $book = $this->Book->find('first', array(
-            'condition'=>array('Book.id'=>$id)));
+            'conditions'=>array('Book.id'=>$id)));
 
         if(!$book) {
             throw new NotFoundException(__('Invalid book'));
         }
 
-        $this->Session->write('book_id', $id);
+        $this->Session->write('Book', $id);
 
         if($this->request->is(array('post', 'put'))) {
             $this->Book->id = $id;

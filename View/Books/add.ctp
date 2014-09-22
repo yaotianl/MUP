@@ -20,11 +20,11 @@
     ));
     echo $this->Form->input('author1', array('class'=>'input1', 'label'=>array('class'=>'label1', 'text'=>'Author1*')));
     echo $this->Form->input('author2', array('class'=>'input1', 'label'=>array('class'=>'label1')));
-    echo $this->Form->input('author3', array('class'=>'input1', 'label'=>array('class'=>'label1')));
-    echo $this->Form->input('author4', array('class'=>'input1', 'label'=>array('class'=>'label1')));
+//    echo $this->Form->input('author3', array('class'=>'input1', 'label'=>array('class'=>'label1')));
+//    echo $this->Form->input('author4', array('class'=>'input1', 'label'=>array('class'=>'label1')));
     echo $this->Form->input('publisher', array('class'=>'input1', 'label'=>array('class'=>'label1')));
-    echo $this->Form->input('contractNumber', array('class'=>'input1', 'label'=>array('class'=>'label1')));
-    echo $this->Form->input('ISBN', array('class'=>'input1', 'label'=>array('class'=>'label1')));
+//    echo $this->Form->input('contractNumber', array('class'=>'input1', 'label'=>array('class'=>'label1')));
+//    echo $this->Form->input('ISBN', array('class'=>'input1', 'label'=>array('class'=>'label1')));
     echo $this->Form->input('publicationsDate', array(
         'type' => 'date',
         'dateFormat' => 'DMY',
@@ -34,5 +34,5 @@
         'label' => array('class'=>'label1')
     ));
     echo $this->Form->end('Save Book');
-    echo $this->element('sql_dump');
+//    echo $this->element('sql_dump');
 ?>

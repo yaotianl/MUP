@@ -51,7 +51,7 @@ class SalesForecastsController extends AppController {
             if ($count == 0) {
                 if ($this->SalesForecast->save($this->request->data)) {
                     return $this->redirect(array(
-                        'controller'=>'businessCaseBudgets',
+                        'controller'=>'summaries',
                         'action'=>'index'
                     ));
                 }
@@ -89,6 +89,7 @@ class SalesForecastsController extends AppController {
         if($this->request->is(array('post', 'put'))) {
             $this->request->data['SalesForecast']['book_id'] = $book_id;
             if($this->SalesForecast->save($this->request->data)) {
+                $this->Session->setFlash('Successfully update!');
             }
             else
                 $this->Session->setFlash('Update failed!');

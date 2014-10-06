@@ -35,7 +35,7 @@ class RoyaltiesController extends AppController {
             if ($count == 0) {
                 if ($this->Royalty->save($this->request->data)) {
                     return $this->redirect(array(
-                        'controller'=>'publishingOriginations',
+                        'controller'=>'editorialOriginations',
                         'action'=>'add'
                     ));
                 }
@@ -66,7 +66,7 @@ class RoyaltiesController extends AppController {
             //$this->Royalty->id = $id;
             $this->request->data['Royalty']['book_id'] = $book_id;
             if($this->Royalty->save($this->request->data)) {
-
+                $this->Session->setFlash('Successfully update!');
             }
             else
                 $this->Session->setFlash('Update failed!');

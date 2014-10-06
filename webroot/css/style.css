@@ -126,7 +126,8 @@ section, header, footer, aside, nav, article{
     background: lightskyblue;
 }
 .input_a,
-.input_c {
+.input_c,
+.input_e {
     vertical-align: middle;
     background: #ffff00;
     border: 1px double #DDD;
@@ -139,7 +140,8 @@ section, header, footer, aside, nav, article{
 }
 
 .input_b,
-.input_d {
+.input_d,
+.input_f {
     vertical-align: middle;
     background: greenyellow;
     border: 1px double #DDD;
@@ -150,6 +152,31 @@ section, header, footer, aside, nav, article{
     width: 150px;
     margin-left: 30px;
 }
+
+.input_report {
+    vertical-align: middle;
+    border: 1px double #DDD;
+    background: #a6ff94;
+    box-shadow: 0 0 5px #333;
+    color: #666;
+    outline: none;
+    height:20px;
+    width: 60px;
+    text-align: center;
+}
+.input_rate {
+    vertical-align: middle;
+    border: 1px double #DDD;
+    background: #ffff00;
+    box-shadow: 0 0 5px #333;
+    color: #666;
+    outline: none;
+    height:20px;
+    width: 60px;
+    text-align: center;
+}
+
+
 .num, .quo {
     background: #ffff00;
     position: absolute;
@@ -381,4 +408,74 @@ li.active {
     border-radius: 50px;
     box-shadow: 0 0 5px #585858;
     width: 500px;
+}
+
+#table_report {
+    background-color: #eee;
+    border-collapse: collapse;
+    font-size: small;
+}
+
+#table_report th, #table_report td{
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+#table_budget {
+    border: 1px solid black;
+    text-align: left;
+    width: 700px;
+    font-size: small;
+    padding-left: 10px;
+    padding-right: 10px ;
+
+}
+
+#budget {
+    position: absolute;
+    left: 25%;
+    top: 200px;
+    width: 65%;
+    padding-left: 15px;
+    margin: 10px;
+}
+
+
+element.style {
+}
+footer#ex_footer {
+    position: absolute;
+    top: 700px;
+    height:60px;
+
+}
+
+#table_budget th {
+    padding: 4px;
+}
+
+#table_budget #ind1 {
+    text-indent: 20px;
+}
+
+#table_budget .cost {
+    color: red;
+}
+#total_row {
+    background-color: #000000;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+#total_row h3{
+    background-color: #EEEEEE;
+}
+
+
+.clear {
+    clear: both;
+}
+div .header {
+    text-align: center;
 }

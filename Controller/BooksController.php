@@ -44,6 +44,21 @@ class BooksController extends AppController {
     }
 
     /**
+     * @param $id
+     * @throws MethodNotAllowedException
+     * Delete the existing file
+     */
+    function delete($id) {
+        if ($this->request->is('get')) {
+            throw new MethodNotAllowedException();
+        }
+        if ($this->Book->delete($id, true)) {
+            //$this->Session->setFlash('The book with id: ' . $id . ' has been deleted.');
+            $this->redirect(array('action' => 'viewAll'));
+        }
+    }
+
+    /**
      * Add a new book table, refer to excel's Title Particulars
      * Move the Publication Date file here to help the future sorting
      */
@@ -95,6 +110,8 @@ class BooksController extends AppController {
             if($this->Book->save($this->request->data)) {
                 $this->Session->setFlash('The book has been updated!');
             }
+            else
+                $this->Session->setFlash('Update Failed!');
         }
 
         if(!$this->request->data) {

@@ -23,7 +23,7 @@
 //    echo $this->Form->input('hurdleTwo', array('class'=>'input1', 'label'=>array('class'=>'label1')));
 //    echo $this->Form->input('hurdleTwoRoyaltyRate', array('class'=>'input1', 'label'=>array('class'=>'label1')));
     echo $this->Form->input('overSeasRoyalty', array('class'=>'input1', 'label'=>array('class'=>'label1')));
-    echo $this->Form->input('eBookRoyalty', array('class'=>'input1', 'label'=>array('class'=>'label1')));
+    echo $this->Form->input('eBookRoyalty', array('class'=>'input_im', 'value'=>25, 'label'=>array('class'=>'label1')));
     echo $this->Form->input('rightsIncomeSplit', array('class'=>'input_im', 'value'=>50, 'label'=>array('class'=>'label1', 'text'=>'Rights Income Split*')));
 //    echo $this->Form->input('discountRateThreshold', array('class'=>'input1', 'label'=>array('class'=>'label1')));
 //    echo $this->Form->input('royaltyPayableAfterDiscountRate', array('class'=>'input1', 'label'=>array('class'=>'label1')));

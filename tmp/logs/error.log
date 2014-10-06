@@ -3499,3 +3499,848 @@ Request URL: /mup/cakephp2/js/auto_rrp.js
 Stack Trace:
 #0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-09-24 00:03:34 Error: [MissingControllerException] Controller class PublishingOriginationsController could not be found.
+Exception Attributes: array (
+  'class' => 'PublishingOriginationsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/publishingOriginations/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-29 03:35:19 Error: [MissingControllerException] Controller class EditController could not be found.
+Exception Attributes: array (
+  'class' => 'EditController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/edit
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-29 06:27:45 Error: Fatal Error (1): Call to undefined function int() in [/var/www/mup/cakephp2/app/Controller/BusinessCaseBudgetsController.php, line 67]
+2014-09-29 06:27:45 Error: [FatalErrorException] Call to undefined function int()
+Request URL: /mup/cakephp2/businessCaseBudgets
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/mup/ca...', 67)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/mup/ca...', 67, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/mup/ca...', 67, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-30 23:38:10 Error: [MissingControllerException] Controller class EditController could not be found.
+Exception Attributes: array (
+  'class' => 'EditController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/edit
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-30 23:38:53 Error: [MissingControllerException] Controller class EditController could not be found.
+Exception Attributes: array (
+  'class' => 'EditController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/edit
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-30 23:38:55 Error: [MissingControllerException] Controller class EditController could not be found.
+Exception Attributes: array (
+  'class' => 'EditController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/edit
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-30 23:38:59 Error: [MissingControllerException] Controller class EditController could not be found.
+Exception Attributes: array (
+  'class' => 'EditController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/edit
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-01 00:05:52 Error: [MissingControllerException] Controller class Javascrīpt:window.print()Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Javascrīpt:window.print()Controller',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/javascr%C4%ABpt:window.print()
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-01 00:34:31 Error: [MissingControllerException] Controller class Style-print.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Style-print.cssController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/style-print.css
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-01 00:43:23 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Style.cssController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/style.css
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-01 00:44:55 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Style.cssController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/style.css
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-01 00:47:40 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Style.cssController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/style.css
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-01 00:48:39 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Style.cssController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/style.css
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-01 00:49:44 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Style.cssController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/style.css
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-01 00:49:46 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Style.cssController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/style.css
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-01 00:52:24 Error: [MissingControllerException] Controller class Style-print.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Style-print.cssController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/style-print.css
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-01 01:00:38 Error: [MissingControllerException] Controller class Style-print.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Style-print.cssController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/style-print.css
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-01 01:50:03 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`mup`.`royalties`, CONSTRAINT `royalties_ibfk_1` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`))
+Request URL: /mup/cakephp2/books/delete/1
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('DELETE `Book` F...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/Database/Mysql.php(451): DboSource->execute('DELETE `Book` F...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2630): Mysql->delete(Object(Book), Array)
+#4 /var/www/mup/cakephp2/app/Controller/BooksController.php(55): Model->delete('1')
+#5 [internal function]: BooksController->delete('1')
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-01 01:52:19 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`mup`.`royalties`, CONSTRAINT `royalties_ibfk_1` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`))
+Request URL: /mup/cakephp2/books/delete/1
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('DELETE `Book` F...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/Database/Mysql.php(451): DboSource->execute('DELETE `Book` F...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2630): Mysql->delete(Object(Book), Array)
+#4 /var/www/mup/cakephp2/app/Controller/BooksController.php(55): Model->delete('1', true)
+#5 [internal function]: BooksController->delete('1')
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-10-01 05:10:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-01 05:30:47 Error: [MissingTableException] Table business_case_budgets for model BusinessCaseBudget was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'business_case_budgets',
+  'class' => 'BusinessCaseBudget',
+  'ds' => 'default',
+)
+Request URL: /mup/cakephp2/salesForecasts/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(3547): Model->setSource('business_case_b...')
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1365): Model->getDataSource()
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(2496): Model->schema()
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1721): DboSource->fields(Object(BusinessCaseBudget), 'BusinessCaseBud...', '')
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Book), Object(BusinessCaseBudget), 'hasOne', 'BusinessCaseBud...', Array, Array, false)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#7 /var/www/mup/cakephp2/app/Controller/SalesForecastsController.php(28): Model->find('first', Array)
+#8 [internal function]: SalesForecastsController->add()
+#9 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesForecastsController), Array)
+#10 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(SalesForecastsController), Object(CakeRequest))
+#12 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-10-01 05:31:08 Error: [MissingTableException] Table business_case_budgets for model BusinessCaseBudget was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'business_case_budgets',
+  'class' => 'BusinessCaseBudget',
+  'ds' => 'default',
+)
+Request URL: /mup/cakephp2/salesForecasts/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(3547): Model->setSource('business_case_b...')
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1365): Model->getDataSource()
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(2496): Model->schema()
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1721): DboSource->fields(Object(BusinessCaseBudget), 'BusinessCaseBud...', '')
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Book), Object(BusinessCaseBudget), 'hasOne', 'BusinessCaseBud...', Array, Array, false)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#7 /var/www/mup/cakephp2/app/Controller/SalesForecastsController.php(28): Model->find('first', Array)
+#8 [internal function]: SalesForecastsController->add()
+#9 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesForecastsController), Array)
+#10 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(SalesForecastsController), Object(CakeRequest))
+#12 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-10-01 05:31:16 Error: [MissingTableException] Table business_case_budgets for model BusinessCaseBudget was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'business_case_budgets',
+  'class' => 'BusinessCaseBudget',
+  'ds' => 'default',
+)
+Request URL: /mup/cakephp2/salesForecasts/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(3547): Model->setSource('business_case_b...')
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1365): Model->getDataSource()
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(2496): Model->schema()
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1721): DboSource->fields(Object(BusinessCaseBudget), 'BusinessCaseBud...', '')
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Book), Object(BusinessCaseBudget), 'hasOne', 'BusinessCaseBud...', Array, Array, false)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#7 /var/www/mup/cakephp2/app/Controller/SalesForecastsController.php(28): Model->find('first', Array)
+#8 [internal function]: SalesForecastsController->add()
+#9 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesForecastsController), Array)
+#10 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(SalesForecastsController), Object(CakeRequest))
+#12 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-10-01 05:37:00 Error: [MissingTableException] Table business_case_budgets for model BusinessCaseBudget was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'business_case_budgets',
+  'class' => 'BusinessCaseBudget',
+  'ds' => 'default',
+)
+Request URL: /mup/cakephp2/salesForecasts/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(3547): Model->setSource('business_case_b...')
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1365): Model->getDataSource()
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(2496): Model->schema()
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1721): DboSource->fields(Object(BusinessCaseBudget), 'BusinessCaseBud...', '')
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Book), Object(BusinessCaseBudget), 'hasOne', 'BusinessCaseBud...', Array, Array, false)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#7 /var/www/mup/cakephp2/app/Controller/SalesForecastsController.php(28): Model->find('first', Array)
+#8 [internal function]: SalesForecastsController->add()
+#9 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesForecastsController), Array)
+#10 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(SalesForecastsController), Object(CakeRequest))
+#12 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-10-01 05:37:05 Error: [MissingTableException] Table business_case_budgets for model BusinessCaseBudget was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'business_case_budgets',
+  'class' => 'BusinessCaseBudget',
+  'ds' => 'default',
+)
+Request URL: /mup/cakephp2/salesForecasts/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(3547): Model->setSource('business_case_b...')
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1365): Model->getDataSource()
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(2496): Model->schema()
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1721): DboSource->fields(Object(BusinessCaseBudget), 'BusinessCaseBud...', '')
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Book), Object(BusinessCaseBudget), 'hasOne', 'BusinessCaseBud...', Array, Array, false)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('first', Array)
+#7 /var/www/mup/cakephp2/app/Controller/SalesForecastsController.php(28): Model->find('first', Array)
+#8 [internal function]: SalesForecastsController->add()
+#9 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SalesForecastsController), Array)
+#10 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(SalesForecastsController), Object(CakeRequest))
+#12 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-10-06 02:18:01 Error: [MissingTableException] Table business_case_budgets for model BusinessCaseBudget was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'business_case_budgets',
+  'class' => 'BusinessCaseBudget',
+  'ds' => 'default',
+)
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(3547): Model->setSource('business_case_b...')
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1365): Model->getDataSource()
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(2496): Model->schema()
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1721): DboSource->fields(Object(BusinessCaseBudget), 'BusinessCaseBud...', '')
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Book), Object(BusinessCaseBudget), 'hasOne', 'BusinessCaseBud...', Array, Array, false)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('all', Array)
+#7 /var/www/mup/cakephp2/app/Controller/BooksController.php(30): Model->find('all')
+#8 [internal function]: BooksController->viewAll()
+#9 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#10 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#12 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-10-06 02:18:31 Error: [MissingTableException] Table business_case_budgets for model BusinessCaseBudget was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'business_case_budgets',
+  'class' => 'BusinessCaseBudget',
+  'ds' => 'default',
+)
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(3547): Model->setSource('business_case_b...')
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1365): Model->getDataSource()
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(2496): Model->schema()
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1721): DboSource->fields(Object(BusinessCaseBudget), 'BusinessCaseBud...', '')
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Book), Object(BusinessCaseBudget), 'hasOne', 'BusinessCaseBud...', Array, Array, false)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#6 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('all', Array)
+#7 /var/www/mup/cakephp2/app/Controller/BooksController.php(30): Model->find('all')
+#8 [internal function]: BooksController->viewAll()
+#9 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#10 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#12 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-10-06 02:19:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 02:27:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 02:28:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 02:31:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 02:31:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 02:32:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 02:33:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 02:34:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:07:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:34:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:34:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:36:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:36:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:36:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:37:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:37:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:40:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:40:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:40:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:40:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:41:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:43:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:46:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:46:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:48:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:49:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:49:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:49:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:49:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:49:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:49:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:50:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:51:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:51:34 Error: [MissingControllerException] Controller class SummaryController could not be found.
+Exception Attributes: array (
+  'class' => 'SummaryController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/summary
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:51:54 Error: [MissingControllerException] Controller class SummaryController could not be found.
+Exception Attributes: array (
+  'class' => 'SummaryController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/summary
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:51:57 Error: [MissingControllerException] Controller class SummaryController could not be found.
+Exception Attributes: array (
+  'class' => 'SummaryController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/summary
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:52:00 Error: [MissingControllerException] Controller class SummaryController could not be found.
+Exception Attributes: array (
+  'class' => 'SummaryController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/summary
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:52:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:54:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 03:56:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 04:00:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 04:02:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 04:05:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 04:06:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 04:07:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 04:14:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 04:22:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 04:22:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 04:51:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 05:04:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-06 05:36:35 Error: Fatal Error (4): syntax error, unexpected T_ENDFOREACH in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 127]
+2014-10-06 05:36:35 Error: [FatalErrorException] syntax error, unexpected T_ENDFOREACH
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/mup/ca...', 127)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/mup/ca...', 127, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/mup/ca...', 127, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-06 05:42:35 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 81]
+2014-10-06 05:42:35 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', '/var/www/mup/ca...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', '/var/www/mup/ca...', 81, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', '/var/www/mup/ca...', 81, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-06 05:43:05 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 85]
+2014-10-06 05:43:05 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', '/var/www/mup/ca...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', '/var/www/mup/ca...', 85, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', '/var/www/mup/ca...', 85, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-06 05:43:35 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 84]
+2014-10-06 05:43:35 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', '/var/www/mup/ca...', 84)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', '/var/www/mup/ca...', 84, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', '/var/www/mup/ca...', 84, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-06 05:44:05 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 81]
+2014-10-06 05:44:05 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', '/var/www/mup/ca...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', '/var/www/mup/ca...', 81, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', '/var/www/mup/ca...', 81, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

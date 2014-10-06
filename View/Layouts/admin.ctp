@@ -21,8 +21,8 @@
 
 </nav>
 
-
-<?php echo $this->fetch('content'); ?>
+<?php echo $this->Session->flash();
+    echo $this->fetch('content'); ?>
 <footer id="ex_footer">
     <h6>Copyright © 2014 MUP.</h6>
 </footer>

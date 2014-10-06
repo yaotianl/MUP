@@ -68,6 +68,7 @@ class ProductionOriginationsController extends AppController {
         if($this->request->is(array('post', 'put'))) {
             $this->request->data['ProductionOrigination']['book_id'] = $book_id;
             if($this->ProductionOrigination->save($this->request->data)) {
+                $this->Session->setFlash('Successfully update!');
             }
             else
                 $this->Session->setFlash('Update failed!');

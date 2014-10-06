@@ -33,7 +33,7 @@
             </li>
             <li><?php echo $this->Html->link('Print, Price and Publication', array('controller'=>'printSpecifications', 'action'=>'add')); ?></li>
             <li><?php echo $this->Html->link('Sales Forecast', array('controller'=>'salesForecasts', 'action'=>'add')); ?></li>
-            <li><?php echo $this->Html->link('Title Business Case Budget', array('controller'=>'businessCaseBudgets', 'action'=>'index')); ?></li>
+            <li><?php echo $this->Html->link('Summary', array('controller'=>'summaries', 'action'=>'index')); ?></li>
             <li><?php echo $this->Html->link('Log out', array('controller'=>'users', 'action'=>'logout')); ?></li>
         </ul>
     </div>
@@ -49,9 +49,6 @@
 
 
 
-<footer id="ex_footer">
-    <h6>Copyright © 2014 MUP.</h6>
-</footer>
 
 </body>
 </html>

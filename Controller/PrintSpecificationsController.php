@@ -66,7 +66,7 @@ class PrintSpecificationsController extends AppController {
         if ($this->request->is(array('put', 'post'))) {
             $this->request->data['PrintSpecification']['book_id'] = $book_id;
             if( $this->PrintSpecification->save($this->request->data)) {
-
+                $this->Session->setFlash('Successfully update!');
             }
             else
                 $this->Session->setFlash('Update failed!');

@@ -11,8 +11,11 @@ class Royalty extends AppModel {
         'startingRate'=>array(
             'rule'=>'notEmpty'),
         'rightsIncomeSplit'=>array(
+            'rule'=>'notEmpty'),
+        'eBookRoyalty'=>array(
             'rule'=>'notEmpty'
-        ));
+        )
+    );
 
 
 }

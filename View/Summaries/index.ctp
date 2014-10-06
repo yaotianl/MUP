@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="app/webroot/css/style-print.css" type="text/css" media="print">
 <?php echo $this->Html->script('auto_rate'); ?>
 <div class="header">
-    <h1> Business Case Budget
-    <u><?php echo $book['Book']['title']; ?></u>
+    <h1> Summary
+        <u><?php echo $book['Book']['title']; ?></u>
     </h1>
 </div>
 <div class="info">
@@ -33,11 +33,11 @@
             </tr>
             <tr>
                 <td> <label class="label1">Distribution Rate</label></td>
-                <td> <input type="text" class="input_rate" id='dis' value="<?php echo ($sum['distributionSalesCommissionRate']*100); ?>"></td>
+                <td> <input type="text" class="input_rate" id='dis' disabled='disabled' value="<?php echo ($sum['distributionSalesCommissionRate']*100).'%'; ?>"></td>
             </tr>
             <tr>
                 <td> <label class="label1">Advertising & Promotion Rate</label></td>
-                <td> <input type="text" class="input_rate" id='ad' value="<?php echo ($sum['advertisingPromotionRate']*100); ?>"></td>
+                <td> <input type="text" class="input_rate" id='ad' disabled='disabled' value="<?php echo ($sum['advertisingPromotionRate']*100).'%'; ?>"></td>
             </tr>
         </table>
         <a href="javascript:window.print()"><img style="border:none;-webkit-box-shadow:none;box-shadow:none;" src="http://cdn.printfriendly.com/button-print-grnw20.png" alt="Print Friendly and PDF"/></a>

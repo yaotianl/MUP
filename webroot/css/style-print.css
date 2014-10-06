@@ -1,0 +1,41 @@
+@page { margin: 0; }
+#budget > div.submit > input[type="submit"] {display:none;}
+#tabmenu {display: none}
+#print > input[type="button"] {display:none;}
+#ex_footer {display:none;}
+#print > a {display: none;}
+.header {position: absolute; top: 100px; left: 200px}
+#print {position: absolute; top: 150px; left: 200px}
+#budget {position: absolute; top: 350px;left:10px}
+#table_budget {
+    border: 1px solid black;
+    text-align: left;
+    font-size: small;
+    padding-left: 10px;
+    padding-right: 10px ;
+
+}
+#table_budget th {
+    padding: 4px;
+}
+
+#table_budget #ind1 {
+    text-indent: 20px;
+}
+
+#table_budget .cost {
+    color: red;
+}
+#total_row {
+    background-color: #000000;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+#total_row h3{
+    background-color: #EEEEEE;
+}
+
+div .header {
+    text-align: center;
+}

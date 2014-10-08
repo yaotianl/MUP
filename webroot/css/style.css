@@ -479,3 +479,15 @@ footer#ex_footer {
 div .header {
     text-align: center;
 }
+
+div .business_case {
+    float: right;
+    padding-right: 100px;
+    margin: 20px;
+}
+
+div .summary {
+    float: left;
+    padding-left: 100px;
+    margin: 20px;
+}

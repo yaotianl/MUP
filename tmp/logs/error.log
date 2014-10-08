@@ -4344,3 +4344,245 @@ Stack Trace:
 #3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-10-06 05:47:00 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 84]
+2014-10-06 05:47:00 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', '/var/www/mup/ca...', 84)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', '/var/www/mup/ca...', 84, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', '/var/www/mup/ca...', 84, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-06 05:47:41 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 85]
+2014-10-06 05:47:41 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', '/var/www/mup/ca...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', '/var/www/mup/ca...', 85, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', '/var/www/mup/ca...', 85, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-06 05:48:15 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 81]
+2014-10-06 05:48:15 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', '/var/www/mup/ca...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', '/var/www/mup/ca...', 81, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', '/var/www/mup/ca...', 81, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-06 05:48:54 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 85]
+2014-10-06 05:48:54 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', '/var/www/mup/ca...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', '/var/www/mup/ca...', 85, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', '/var/www/mup/ca...', 85, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-06 05:49:32 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [/var/www/mup/cakephp2/app/View/Books/view_all.ctp, line 81]
+2014-10-06 05:49:32 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /mup/cakephp2/books/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', '/var/www/mup/ca...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', '/var/www/mup/ca...', 81, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', '/var/www/mup/ca...', 81, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-07 23:26:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-07 23:26:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-07 23:39:35 Error: Fatal Error (1): Call to a member function isAjax() on a non-object in [/var/www/mup/cakephp2/app/Controller/SummariesController.php, line 154]
+2014-10-07 23:39:35 Error: [FatalErrorException] Call to a member function isAjax() on a non-object
+Request URL: /mup/cakephp2/summaries?_method=POST
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 154)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 154, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 154, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-07 23:42:06 Error: Fatal Error (1): Call to a member function isAjax() on a non-object in [/var/www/mup/cakephp2/app/Controller/SummariesController.php, line 154]
+2014-10-07 23:42:06 Error: [FatalErrorException] Call to a member function isAjax() on a non-object
+Request URL: /mup/cakephp2/summaries?_method=POST
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 154)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 154, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 154, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-07 23:45:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-07 23:45:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-07 23:45:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-07 23:45:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-07 23:46:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/js/auto_rate.js
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-08 00:26:28 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/mup/cakephp2/app/Controller/BusinessCasesController.php, line 36]
+2014-10-08 00:26:28 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /mup/cakephp2/businessCases
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/mup/ca...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/mup/ca...', 36, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/mup/ca...', 36, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-08 00:26:46 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/mup/cakephp2/app/Controller/BusinessCasesController.php, line 16]
+2014-10-08 00:26:46 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /mup/cakephp2/businessCases
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 16, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 16, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-08 00:26:47 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/mup/cakephp2/app/Controller/BusinessCasesController.php, line 16]
+2014-10-08 00:26:47 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /mup/cakephp2/businessCases
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 16, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 16, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-08 00:28:04 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/mup/cakephp2/app/Controller/BusinessCasesController.php, line 16]
+2014-10-08 00:28:04 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /mup/cakephp2/businessCases
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 16, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 16, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-08 00:28:06 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/mup/cakephp2/app/Controller/BusinessCasesController.php, line 16]
+2014-10-08 00:28:06 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /mup/cakephp2/businessCases
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 16, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 16, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-08 00:28:07 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/mup/cakephp2/app/Controller/BusinessCasesController.php, line 16]
+2014-10-08 00:28:07 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /mup/cakephp2/businessCases
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 16, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 16, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-08 00:48:22 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/mup/cakephp2/app/Controller/BusinessCasesController.php, line 19]
+2014-10-08 00:48:22 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /mup/cakephp2/businessCases
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 19, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-08 01:21:40 Error: Fatal Error (4): syntax error, unexpected $end in [/var/www/mup/cakephp2/app/View/BusinessCases/index.ctp, line 293]
+2014-10-08 01:21:40 Error: [FatalErrorException] syntax error, unexpected $end
+Request URL: /mup/cakephp2/businessCases
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/mup/ca...', 293)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/mup/ca...', 293, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/mup/ca...', 293, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-08 01:21:42 Error: Fatal Error (4): syntax error, unexpected $end in [/var/www/mup/cakephp2/app/View/BusinessCases/index.ctp, line 293]
+2014-10-08 01:21:42 Error: [FatalErrorException] syntax error, unexpected $end
+Request URL: /mup/cakephp2/businessCases
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/mup/ca...', 293)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/mup/ca...', 293, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/mup/ca...', 293, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-08 03:04:40 Error: [MissingControllerException] Controller class ViewAllController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewAllController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/viewAll
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-08 03:09:08 Error: Fatal Error (4): syntax error, unexpected '}', expecting '(' in [/var/www/mup/cakephp2/app/Controller/ProgramsController.php, line 12]
+2014-10-08 03:09:08 Error: [FatalErrorException] syntax error, unexpected '}', expecting '('
+Request URL: /mup/cakephp2/programs
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/mup/ca...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/mup/ca...', 12, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/mup/ca...', 12, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

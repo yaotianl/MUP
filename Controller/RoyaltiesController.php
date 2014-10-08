@@ -67,6 +67,10 @@ class RoyaltiesController extends AppController {
             $this->request->data['Royalty']['book_id'] = $book_id;
             if($this->Royalty->save($this->request->data)) {
                 $this->Session->setFlash('Successfully update!');
+                return $this->redirect(array(
+                    'controller'=>'summaries',
+                    'action'=>'index'
+                ));
             }
             else
                 $this->Session->setFlash('Update failed!');

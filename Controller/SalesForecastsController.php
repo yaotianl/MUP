@@ -90,6 +90,10 @@ class SalesForecastsController extends AppController {
             $this->request->data['SalesForecast']['book_id'] = $book_id;
             if($this->SalesForecast->save($this->request->data)) {
                 $this->Session->setFlash('Successfully update!');
+                return $this->redirect(array(
+                    'controller'=>'summaries',
+                    'action'=>'index'
+                ));
             }
             else
                 $this->Session->setFlash('Update failed!');

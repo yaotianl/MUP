@@ -109,6 +109,10 @@ class BooksController extends AppController {
             $this->Book->id = $id;
             if($this->Book->save($this->request->data)) {
                 $this->Session->setFlash('The book has been updated!');
+                return $this->redirect(array(
+                    'controller'=>'summaries',
+                    'action'=>'index'
+                ));
             }
             else
                 $this->Session->setFlash('Update Failed!');

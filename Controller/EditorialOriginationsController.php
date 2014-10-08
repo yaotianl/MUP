@@ -70,6 +70,10 @@ class EditorialOriginationsController extends AppController {
             $this->request->data['EditorialOrigination']['book_id'] = $book_id;
             if($this->EditorialOrigination->save($this->request->data)) {
                 $this->Session->setFlash('Successfully update!');
+                return $this->redirect(array(
+                    'controller'=>'summaries',
+                    'action'=>'index'
+                ));
             }
             else
                 $this->Session->setFlash('Update failed!');

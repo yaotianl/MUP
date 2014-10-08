@@ -32,7 +32,7 @@
             <td>Gross Sales</td>
             <td>Net Sales (Physical)</td>
             <td>Total Ebook Units</td>
-            <td>Net Sales (Ebook)</td>
+            <td>Total Net Sales (Ebook)</td>
 
             <td>Total Units</td>
             <td>Total Net Sales</td>
@@ -75,30 +75,36 @@
                 <td><?php echo '$'.number_format($book['Royalty']['advancedPayment']); ?></td>
                 <!--month 1-12 -->
                 <?php
+                    // The total units sold in this specific year
+                    $totalUnit = 0;
                     $month = 1;
+                    $m = 1;
                     $date = new DateTime($book['Book']['publicationsDate']);
                     $start = date_format($date, "m");
                     while ($month <= 12) {
                         // Keep the format 01 - 12
-                        if ($month < 10)
-                            $month = '0'.$month;
-                        $month = $month.'monthNetUnits';
-
                         if ($start > $month) {
                             ?><td></td><?php
                         }
                         else {
-                            ?><td><?php echo $book['SalesForecast'][$month]; ?></td>
-                        <?php
-                            $month += 1;
+                            if ($m < 10)
+                                $mon = '0'.$m.'monthNetUnits';
+                            else
+                                $mon = $m.'monthNetUnits';
+
+                            ?><td><?php echo $book['SalesForecast'][$mon]; ?></td>
+                            <?php
+                            $m += 1;
+                            $totalUnit += $book['SalesForecast'][$mon];
                         }
+                        $month += 1;
 
                     }
 
                 ?>
 
 
-                <td><?php echo $book['Summary']['physicalBooksSold']; ?></td>
+                <td><?php echo $totalUnit; ?></td>
                 <td><?php echo '$'.number_format($book['PrintSpecification']['RRP']/1.1*$book['Summary']['physicalBooksSold']); ?></td>
                 <td><?php echo '$'.number_format($book['Summary']['physicalBookTradeRevenue']); ?></td>
                 <td><?php echo $book['Summary']['ebooksSold']; ?></td>

@@ -30,6 +30,7 @@
             <li><?php echo $this->Html->link('Print, Price and Publication', array('controller'=>'printSpecifications', 'action'=>'edit')); ?></li>
             <li><?php echo $this->Html->link('Sales Forecast', array('controller'=>'salesForecasts', 'action'=>'edit')); ?></li>
             <li><?php echo $this->Html->link('Summary', array('controller'=>'summaries', 'action'=>'index')); ?></li>
+            <li><?php echo $this->Html->link('Business Case', array('controller'=>'businessCases', 'action'=>'index', 0)); ?></li>
             <li><?php echo $this->Html->link('Log out', array('controller'=>'users', 'action'=>'logout')); ?></li>
         </ul>
     </div>

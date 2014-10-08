@@ -12,6 +12,7 @@ class SummariesController extends AppController{
         $this->layout = 'addABook';
     }
 
+
     public function index() {
         $book = $this->Summary->Book->find('first', array(
             'conditions'=>array('Book.id'=>$this->Session->read('Book'))
@@ -96,7 +97,7 @@ class SummariesController extends AppController{
         $advertising = $advertisingRate * ($book['SalesForecast']['totalReceipts']+$book['SalesForecast']['totalReceiptsEbook']);
 
 
-        // An associative array that contains all details for the business case budget, refer to the database format
+        // An associative array that contains all details for the summary/business case budget, refer to the database format
         $summary = array(
             'Summary' => array(
                 'RRP'=>(float)$book['PrintSpecification']['RRP'],
@@ -149,7 +150,6 @@ class SummariesController extends AppController{
             else
                 $this->Session->setFlash('Unable to save !');
         }
-
     }
 
 }

@@ -28,6 +28,9 @@ class Book extends AppModel {
         'Summary' => array(
             'dependent'=> true,
             'ClassName' => 'Summary'
+        ),
+        'BusinessCase' => array(
+            'dependent'=> true
         )
     );
 

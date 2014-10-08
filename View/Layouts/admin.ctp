@@ -15,7 +15,7 @@
 <nav>
     <ul id="tabmenu">
         <li><?php echo $this->Html->link('Home', array('controller'=>'home', 'action'=>'index')); ?></li>
-        <li><?php echo $this->Html->link('Report', array('controller'=>'', 'action'=>'')); ?></li>
+        <li><?php echo $this->Html->link('Program', array('controller'=>'programs', 'action'=>'index')); ?></li>
         <li><?php echo $this->Html->link('Log out', array('controller'=>'users', 'action'=>'logout')); ?></li>
     </ul>
 

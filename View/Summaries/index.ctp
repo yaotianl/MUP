@@ -1,5 +1,10 @@
 <link rel="stylesheet" href="app/webroot/css/style-print.css" type="text/css" media="print">
-<?php echo $this->Html->script('auto_rate'); ?>
+<?php
+$this->Paginator->options(array(
+    'update' => '#content',
+    'evalScripts' => true
+));
+?>
 <div class="header">
     <h1> Summary
         <u><?php echo $book['Book']['title']; ?></u>
@@ -96,15 +101,15 @@
         </th>
         <tr>
             <td id="a"><p id="ind1">- Print, Paper & Binding</p></td>
-            <td id="b"><p class="cost"><?php echo '$'.number_format($sum['printPaperBinding']); ?></p></td>
+            <td id="b"><p style="color:red"><?php echo '$'.number_format($sum['printPaperBinding']); ?></p></td>
         </tr>
         <tr>
             <td id="a"><p id="ind1">- Origination</p></td>
-            <td id="b"><p class="cost"><?php echo '$'.number_format($sum['origination']); ?></p></td>
+            <td id="b"><p style="color:red"><?php echo '$'.number_format($sum['origination']); ?></p></td>
         </tr>
         <tr>
             <td id="a"><p><u>Total Cost of Goods Sold</u></p></td>
-            <td id="b"><p class="cost"><u><?php echo '$'.number_format($sum['totalCostOfGoodsSold']); ?></u></p></td>
+            <td id="b"><p style="color:red"><u><?php echo '$'.number_format($sum['totalCostOfGoodsSold']); ?></u></p></td>
         </tr>
         <tr></tr>
         <tr>
@@ -114,36 +119,37 @@
         </tr>
         <tr>
             <td><p id="ind1">- Royalty Expense / Advance Write Off</p></td>
-            <td><p class="cost"><?php echo '$'.number_format($sum['royaltyExpense']); ?></p></td>
+            <td><p style="color:red"><?php echo '$'.number_format($sum['royaltyExpense']); ?></p></td>
         </tr>
         <tr>
             <td><p id="ind1">- Distribution & Sales Commission</p></td>
-            <td><p class="cost" id="dis"><?php echo '$'.number_format($sum['distributionSalesCommission'])?></p></td>
+            <td><p style="color:red" id="dis"><?php echo '$'.number_format($sum['distributionSalesCommission'])?></p></td>
         </tr>
         <tr>
             <td><p id="ind1">- Advertising & Promotion</p></td>
-            <td><p class="cost" id="'ad"><?php echo '$'.number_format($sum['advertisingPromotion'])?></p></td>
+            <td><p style="color:red" id="'ad"><?php echo '$'.number_format($sum['advertisingPromotion'])?></p></td>
         </tr>
         <tr>
             <td id="a"><p><u>Total Selling Costs</u></p></td>
-            <td id="b"><p class="cost"><u><?php echo '$'.number_format($sum['totalSellingCost']); ?></u></p></td>
+            <td id="b"><p style="color:red"><u><?php echo '$'.number_format($sum['totalSellingCost']); ?></u></p></td>
         </tr>
         <tr>
             <td id="total_row"><h3>Total Publication Cost</h3></td>
-            <td id="total_row"><h3><?php echo '$'.number_format($sum['totalProductionCost']); ?></h3></td>
+            <td id="total_row"><h3 style="color:red"><?php echo '$'.number_format($sum['totalProductionCost']); ?></h3></td>
         </tr>
         <tr></tr>
         <tr></tr>
         <tr>
             <td id="final_row"><h3>Total Contribution</h3></td>
-            <td id="final_row"><h3><?php echo '$'.number_format($sum['totalContribution']); ?></h3></td>
+            <td id="final_row"><?php if($sum['totalContribution']<0){echo '<h3 style="color:red">'.'$'.number_format($sum['totalContribution']).'<h3>';} ?></td>
         </tr>
 
     </table>
 
     <?php
-    echo $this->Form->create('businessCase');
-    echo $this->Form->end('Save As A New Business');
+    echo $this->Html->link('create a new business case', array('controller'=>'businessCases', 'action'=>'index', 1));
     ?>
+
+
 
 </div>

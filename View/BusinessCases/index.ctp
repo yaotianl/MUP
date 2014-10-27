@@ -12,7 +12,7 @@ $this->Paginator->options(array(
 </div>
 <div class="summary">
     <div class="info">
-        <h2>Latest Summary</h2>
+        <h2>Latest <Summary></Summary></h2>
         <form id="print">
             <table id="table_report">
                 <tr>
@@ -142,7 +142,13 @@ $this->Paginator->options(array(
             <tr></tr>
             <tr>
                 <td id="final_row"><h3>Total Contribution</h3></td>
-                <td id="final_row"><?php if($sum['totalContribution']<0){echo '<h3 style="color:red">'.'$'.number_format($sum['totalContribution']).'<h3>';} ?></h3></td>
+                <td id="final_row">
+                    <?php if($sum['totalContribution']<0){
+                        echo '<h3 style="color:red">'.'$'.number_format($sum['totalContribution']);
+                    }
+                    else{
+                        echo '<h3>'.'$'.number_format($sum['totalContribution']);
+                    }?></h3></td>
             </tr>
 
         </table>
@@ -153,7 +159,7 @@ $this->Paginator->options(array(
 
 <div class="business_case">
     <div class="info">
-        <h2>Business Case</h2>
+        <h2>proof Business Case</h2>
         <form id="print">
             <table id="table_report">
                 <tr>
@@ -283,7 +289,13 @@ $this->Paginator->options(array(
             <tr></tr>
             <tr>
                 <td id="final_row"><h3>Total Contribution</h3></td>
-                <td id="final_row"><?php if(number_format($bus['totalContribution'])<0){echo '<h3 style="color:red">'.'$'.number_format($bus['totalContribution']).'<h3>';} ?></td>
+                <td id="final_row">
+                    <?php if(number_format($bus['totalContribution'])<0){
+                        echo '<h3 style="color:red">'.'$'.number_format($bus['totalContribution']).'<h3>';}
+                    else
+                        echo '<h3>'.'$'.number_format($bus['totalContribution']).'<h3>';
+                    ?>
+                </td>
             </tr>
 
         </table>

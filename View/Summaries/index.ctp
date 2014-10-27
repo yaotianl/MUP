@@ -141,7 +141,13 @@ $this->Paginator->options(array(
         <tr></tr>
         <tr>
             <td id="final_row"><h3>Total Contribution</h3></td>
-            <td id="final_row"><?php if($sum['totalContribution']<0){echo '<h3 style="color:red">'.'$'.number_format($sum['totalContribution']).'<h3>';} ?></td>
+            <td id="final_row">
+                <?php if($sum['totalContribution']<0){
+                    echo '<h3 style="color:red">'.'$'.number_format($sum['totalContribution']).'<h3>';
+                }
+                else{
+                    echo '<h3>'.'$'.number_format($sum['totalContribution']).'<h3>';
+                }?></td>
         </tr>
 
     </table>

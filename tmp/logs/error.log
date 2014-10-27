@@ -4586,3 +4586,133 @@ Stack Trace:
 #3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-10-08 03:15:13 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/Programs/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/Programs/index.ctp',
+)
+Request URL: /mup/cakephp2/programs
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProgramsController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-08 03:37:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Program.book_id' in 'on clause'
+Request URL: /mup/cakephp2/programs
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Book`.`...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Book`.`...', Array, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Book`.`...', false)
+#4 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2943): DboSource->read(Object(Book), Array)
+#5 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(2915): Model->_readDataSource('all', Array)
+#6 /var/www/mup/cakephp2/app/Controller/ProgramsController.php(11): Model->find('all')
+#7 [internal function]: ProgramsController->index()
+#8 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ProgramsController), Array)
+#9 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProgramsController), Object(CakeRequest))
+#11 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-10-12 23:28:18 Error: [NotFoundException] There is no book currently!
+Request URL: /mup/cakephp2/programs
+Stack Trace:
+#0 [internal function]: ProgramsController->index()
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ProgramsController), Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProgramsController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-15 04:48:04 Error: [MissingControllerException] Controller class ProgramSummariesController could not be found.
+Exception Attributes: array (
+  'class' => 'ProgramSummariesController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/programSummaries
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-15 05:23:22 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/ProgramSummaries/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/ProgramSummaries/index.ctp',
+)
+Request URL: /mup/cakephp2/programSummaries
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProgramSummariesController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-15 05:24:20 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/ProgramSummaries/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/ProgramSummaries/index.ctp',
+)
+Request URL: /mup/cakephp2/programSummaries
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProgramSummariesController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-15 05:26:00 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/ProgramSummaries/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/ProgramSummaries/index.ctp',
+)
+Request URL: /mup/cakephp2/programSummaries
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProgramSummariesController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-15 05:26:04 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/ProgramSummaries/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/ProgramSummaries/index.ctp',
+)
+Request URL: /mup/cakephp2/programSummaries
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProgramSummariesController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-18 09:17:40 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/ProgramSummaries/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/ProgramSummaries/index.ctp',
+)
+Request URL: /mup/cakephp2/programSummaries/index/2014
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProgramSummariesController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-19 11:19:16 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/ProgramSummaries/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/ProgramSummaries/index.ctp',
+)
+Request URL: /mup/cakephp2/programSummaries/index/2014
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProgramSummariesController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-27 03:12:42 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/ProgramSummaries/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/ProgramSummaries/index.ctp',
+)
+Request URL: /mup/cakephp2/programSummaries/index/2014
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProgramSummariesController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

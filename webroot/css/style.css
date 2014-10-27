@@ -18,14 +18,6 @@ section, header, footer, aside, nav, article{
     padding: 8px;
 }
 
-.printRun {
-    position: absolute;
-    width: 400px;
-    left: 600px;
-    top: 170px;
-
-}
-
 .label1 {
     vertical-align: middle;
     margin-bottom : 15px;
@@ -371,9 +363,6 @@ ul#tabmenu ul li.subActive a, ul#tabmenu ul li a:hover
     padding: 5px 0 5px 0;
 }
 
-#ex_sidebar ul li a {
-    color: #333333;
-}
 
 #ex_sidebar h2 {
     margin: 0 0 0 10px;
@@ -388,7 +377,9 @@ ul#tabmenu ul li.subActive a, ul#tabmenu ul li a:hover
 #content {
     padding: 20px;
     margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 50px;
+    background: beige;
 
 }
 
@@ -433,9 +424,9 @@ li.active {
 }
 
 #budget {
-    position: absolute;
+    position: relative;
     left: 25%;
-    top: 200px;
+    top: -230px;
     width: 65%;
     padding-left: 15px;
     margin: 10px;
@@ -553,4 +544,9 @@ td.total_td {
 .myButton:active {
     position:relative;
     top:1px;
+}
+
+.info {
+    padding: 15px;
+    margin: 5px;
 }

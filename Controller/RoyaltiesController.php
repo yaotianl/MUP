@@ -13,7 +13,11 @@ class RoyaltiesController extends AppController {
     public function add() {
         if ($this->Session->read('Book') == null) {
             $this->Session->setFlash('Please create the book first!');
-            return;
+
+            return $this->redirect(array(
+                'controller'=>'books',
+                'action'=>'add'
+            ));
         }
         $count = $this->Royalty->find('count', array(
             'conditions'=>array('Royalty.book_id'=>$this->Session->read('Book'))

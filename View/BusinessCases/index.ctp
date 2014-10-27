@@ -159,7 +159,7 @@ $this->Paginator->options(array(
 
 <div class="business_case">
     <div class="info">
-        <h2>proof Business Case</h2>
+        <h2>Proof Business Case</h2>
         <form id="print">
             <table id="table_report">
                 <tr>

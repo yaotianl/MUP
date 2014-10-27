@@ -14,6 +14,14 @@ class SummariesController extends AppController{
 
 
     public function index() {
+        if ($this->Session->read('Book') == null) {
+            $this->Session->setFlash('Please create the book first!');
+
+            return $this->redirect(array(
+                'controller'=>'books',
+                'action'=>'add'
+            ));
+        }
         $book = $this->Summary->Book->find('first', array(
             'conditions'=>array('Book.id'=>$this->Session->read('Book'))
         ));
@@ -46,16 +54,15 @@ class SummariesController extends AppController{
             }
             $eBookRoyalty = $rrp_excl_gst_ebook * $book['SalesForecast']['totalUnitsEbook'] * $book['Royalty']['eBookRoyalty']/100;
             $royalty = $rrp_excl_gst*(($book['SalesForecast']['totalUnits'])*$book['Royalty']['startingRate']/100+$royalty_h1+$royalty_h2) + $eBookRoyalty;
-
             // Pay either Royalty or Advanced Payment
-            if ($book['Royalty']['advancedPayment']== null) {
+            if ($book['Royalty']['advancedPayment']== null || $book['Royalty']['advancedPayment'] <= $royalty ) {
                 $result = $royalty;
             }
-            else {
-                if ($book['Royalty']['advancedPayment'] > $royalty) {
-                    $result = $book['Royalty']['advancedPayment'];
-                }
+
+            elseif ($book['Royalty']['advancedPayment'] > $royalty) {
+                $result = $book['Royalty']['advancedPayment'];
             }
+
         }
         // Calculate the Royalty based on the "NR" formula
         elseif ($book['Royalty']['royaltyMethod'] == 'NR') {
@@ -80,13 +87,12 @@ class SummariesController extends AppController{
             $eBookRoyalty = $rrp_excl_gst_ebook*(1-$book['SalesForecast']['averageTradeDiscountEbook']/100)*$book['SalesForecast']['totalUnitsEbook']*$book['Royalty']['eBookRoyalty']/100;
             $royalty = $rrp_excl_gst*(1-$book['SalesForecast']['averageTradeDiscount']/100)*($book['SalesForecast']['totalUnits']*$book['Royalty']['startingRate']/100+$royalty_h1+$royalty_h2) + $eBookRoyalty;
             // Pay either Royalty or Advanced Payment
-            if ($book['Royalty']['advancedPayment']== null) {
+            if ($book['Royalty']['advancedPayment']== null || $book['Royalty']['advancedPayment'] <= $royalty ) {
                 $result = $royalty;
             }
-            else {
-                if ($book['Royalty']['advancedPayment'] > $royalty) {
-                    $result = $book['Royalty']['advancedPayment'];
-                }
+
+            elseif ($book['Royalty']['advancedPayment'] > $royalty) {
+                $result = $book['Royalty']['advancedPayment'];
             }
 
         }

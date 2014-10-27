@@ -17,7 +17,10 @@ class SalesForecastsController extends AppController {
             $book['PrintSpecification']['totalPrintRuns'] = 'NaN';
             $book['PrintSpecification']['averageUnitCost'] = 'NaN';
             $this->set('book', $book);
-            return;
+            return $this->redirect(array(
+                'controller'=>'books',
+                'action'=>'add'
+            ));
         }
 //        debug($this->SalesForecast->Book->find('all'));
 //                'conditions'=>array('Book.id'=>'3')

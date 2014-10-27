@@ -33,6 +33,11 @@
         'class' => 'date1',
         'label' => array('class'=>'label1')
     ));
-    echo $this->Form->end('Save Book');
+    echo $this->Form->submit(
+        'Save Book',
+        array('class' => 'myButton')
+    );
+
+    echo $this->Form->end();
 //    echo $this->element('sql_dump');
 ?>

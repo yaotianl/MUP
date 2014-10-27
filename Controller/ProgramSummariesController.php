@@ -14,7 +14,7 @@ class ProgramSummariesController extends AppController {
 
     public function index($year) {
         if($this->request->is(array("post", "put"))) {
-            debug($year);
+            #debug($year);
         }
     }
 

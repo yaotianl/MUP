@@ -36,5 +36,9 @@ echo $this->Form->input('publishcationsDate', array(
     'label' => array('class'=>'label1'),
     'class' => 'date1'
 ));
-echo $this->Form->end('Update Book');
+echo $this->Form->submit(
+    'Update Book',
+    array('class' => 'myButton')
+);
+echo $this->Form->end();
 ?>

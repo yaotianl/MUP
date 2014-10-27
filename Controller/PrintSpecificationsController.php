@@ -13,7 +13,10 @@ class PrintSpecificationsController extends AppController {
     public function add() {
         if ($this->Session->read('Book') == null) {
             $this->Session->setFlash('Please create the book first!');
-            return;
+            return $this->redirect(array(
+                'controller'=>'books',
+                'action'=>'add'
+            ));
         }
         // The table exists, so we can update it.
         $count = $this->PrintSpecification->find('count', array(

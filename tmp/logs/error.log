@@ -4716,3 +4716,29 @@ Stack Trace:
 #3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProgramSummariesController), Object(CakeRequest))
 #4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-10-27 03:21:13 Error: [MissingViewException] View file "/var/www/mup/cakephp2/app/View/ProgramSummaries/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/mup/cakephp2/app/View/ProgramSummaries/index.ctp',
+)
+Request URL: /mup/cakephp2/programSummaries/index/2014
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ProgramSummariesController), Object(CakeRequest))
+#4 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-27 05:12:26 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'RRPEbook' cannot be null
+Request URL: /mup/cakephp2/printSpecifications/add
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `mu...', Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `mu...')
+#3 /var/www/mup/cakephp2/lib/Cake/Model/Model.php(1850): DboSource->create(Object(PrintSpecification), Array, Array)
+#4 /var/www/mup/cakephp2/app/Controller/PrintSpecificationsController.php(42): Model->save(Array)
+#5 [internal function]: PrintSpecificationsController->add()
+#6 /var/www/mup/cakephp2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PrintSpecificationsController), Array)
+#7 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PrintSpecificationsController), Object(CakeRequest))
+#9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

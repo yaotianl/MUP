@@ -16,7 +16,7 @@
 </header>
 
 <nav id="ex_navbar">
-    <ul>
+    <ul id="tabmenu">
         <li><?php echo $this->Html->link('Log in', array('controller'=>'users', 'action'=>'login')); ?></li>
     </ul>
 </nav>

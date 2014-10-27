@@ -37,6 +37,10 @@ echo $this->Form->input('totalPrintRuns', array('class'=>'input_t', 'label'=>arr
 echo $this->Form->input('totalPrintQuotations', array('class'=>'input_t', 'label'=>array('class'=>'label1'), 'readonly'=>'readonly'));
 echo $this->Form->input('averageUnitCost', array('class'=>'input1', 'label'=>array('class'=>'label1'), 'readonly'=>'readonly'));
 echo '</div>';
-echo $this->Form->end('Save');
+echo $this->Form->submit(
+    'Save',
+    array('class' => 'myButton')
+);
+echo $this->Form->end();
 
 ?>

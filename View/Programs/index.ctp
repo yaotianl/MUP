@@ -13,8 +13,9 @@ echo $this->Form->input('year', array(
     'class' => 'date2',
     'label' => array('class'=>'label1')
 ));
-echo $this->Form->end('Search');
-debug($overall['year']);
+echo $this->Form->submit('Search', array('class'=>'myButton'));
+echo $this->Form->end();
+echo "<p> </p>";
 echo $this->Html->link('Summary', array('controller'=>'programSummaries', 'action'=>'index', $overall['year']), array('class'=>'myButton', 'id'=>'right'));
 ?>
 </div>

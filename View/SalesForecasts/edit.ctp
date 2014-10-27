@@ -196,9 +196,15 @@ echo $this->Form->input('id', array('type'=>'hidden'));
         $this->Form->text('subscriptionRatio', array('class'=>'input_e', 'readonly'=>'readonly')),
     ));
 
+
     echo $this->Html->tableCells(array(
-        $this->Form->end('Save')
+        $this->Form->submit(
+            'Update',
+            array('class' => 'myButton')
+        )
+
     ));
+    $this->Form->end();
     //echo $this->element('sql_dump');
     ?>
 

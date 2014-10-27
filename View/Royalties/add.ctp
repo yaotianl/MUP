@@ -47,7 +47,10 @@
         'label'=>array('class'=>'label1')
 
     ));
-
-    echo $this->Form->end('save');
+    echo $this->Form->submit(
+        'Save',
+        array('class' => 'myButton')
+    );
+    echo $this->Form->end();
 
 ?>

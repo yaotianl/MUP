@@ -19,5 +19,9 @@ echo $this->Form->input('titleSpecificSubsidy', array('class'=>'input2', 'label'
 echo $this->Form->input('source', array('class'=>'input3', 'label'=>array('class'=>'label1')));
 echo $this->Form->input('other', array('class'=>'input1', 'label'=>array('class'=>'label1')));
 echo $this->Form->input('totalProduction', array('class'=>'total', 'label'=>array('class'=>'label1'), 'readonly'=>'disabled'));
-echo $this->Form->end('Save');
+echo $this->Form->submit(
+    'Save',
+    array('class' => 'myButton')
+);
+echo $this->Form->end();
 ?>

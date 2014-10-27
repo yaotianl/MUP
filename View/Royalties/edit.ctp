@@ -48,7 +48,10 @@ echo $this->Form->input('payment3OnPublication', array(
     'class'=>'input1',
     'label'=>array('class'=>'label1')
 ));
-
-echo $this->Form->end('Update');
+echo $this->Form->submit(
+    'Update',
+    array('class' => 'myButton')
+);
+echo $this->Form->end();
 
 ?>

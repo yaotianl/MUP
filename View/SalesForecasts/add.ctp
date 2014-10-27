@@ -193,9 +193,15 @@ echo $this->Html->tableCells(array(
     $this->Form->text('subscriptionRatio', array('class'=>'input_e', 'readonly'=>'readonly')),
 ));
 
-echo $this->Html->tableCells(array(
-    $this->Form->end('Save')
+
+echo $this->Html->tableCells(
+    array($this->Form->submit(
+        'Save',
+        array('class' => 'myButton')
+    )
+
 ));
+$this->Form->end()
 //echo $this->element('sql_dump');
 ?>
 

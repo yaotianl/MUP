@@ -17,6 +17,14 @@ class BusinessCasesController extends AppController {
      * while $option == 0 means the user just view the details of the business case.
      */
     public function index($option) {
+        if ($this->Session->read('Book') == null) {
+            $this->Session->setFlash('Please create the book first!');
+
+            return $this->redirect(array(
+                'controller'=>'books',
+                'action'=>'add'
+            ));
+        }
 //        $book = $this->BusinessCase->Book->find('first',array(
 //        'conditons'=>array('Book.id'=>$this->Session->read('Book'))));
 //        debug($book);

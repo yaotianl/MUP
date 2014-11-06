@@ -7,7 +7,7 @@ echo $this->Html->script('auto_rrp');
 
 echo $this->Form->create('PrintSpecification');
 echo $this->Form->input('RRP', array('class'=>'input1', 'value'=>24.99, 'label'=>array('class'=>'label1', 'text'=>'RRP including GST*')));
-echo $this->Form->input('RRPEbook', array('class'=>'input1', 'label'=>array('class'=>'label1', 'text'=>'RRP for Ebook*')));
+echo $this->Form->input('RRPEbook', array('class'=>'input1', 'value'=>0, 'label'=>array('class'=>'label1', 'text'=>'RRP for Ebook*')));
 echo '<br><div id="block"><label> Print Specification </label></div><br>';
 
 echo $this->Form->input('printerLocation', array('options'=>array(

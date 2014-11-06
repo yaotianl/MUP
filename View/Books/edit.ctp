@@ -19,7 +19,7 @@ echo $this->Form->input('imprint', array(
     'options' => array('Victory'=>'Victory', 'MUP'=>'MUP', 'Meigunyah'=>'Meigunyah', 'Meanjin'=>'Meanjin', 'Custom'=>'Custom', 'Academic Monographs'=>'Academic Monographs'),
     'empty' => '(choose one)',
     'class' => 'input1',
-    'label' => 'label1'
+    'label' => array('class'=>'label1')
 ));
 echo $this->Form->input('author1', array('class'=>'input1', 'label'=>array('class'=>'label1', 'text'=>'Author1*')));
 echo $this->Form->input('author2', array('class'=>'input1', 'label'=>array('class'=>'label1')));

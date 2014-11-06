@@ -8,15 +8,15 @@ echo $this->Form->input('year', array(
     'type' => 'date',
     'label' => 'Year',
     'dateFormat' => 'Y',
-    'minYear' => date('Y'),
-    'maxYear' => date('Y') + 10,
+    'minYear' => 2014,
+    'maxYear' => date('Y') + 6,
     'class' => 'date2',
     'label' => array('class'=>'label1')
 ));
 echo $this->Form->submit('Search', array('class'=>'myButton'));
 echo $this->Form->end();
-echo "<p> </p>";
-echo $this->Html->link('Summary', array('controller'=>'programSummaries', 'action'=>'index', $overall['year']), array('class'=>'myButton', 'id'=>'right'));
+
+echo $this->Html->link('Summary', array('controller'=>'annualSummaries', 'action'=>'index', $overall['year']), array('class'=>'myButton', 'id'=>'right'));
 ?>
 </div>
 <div class="CSSTableGenerator" >
@@ -27,7 +27,7 @@ echo $this->Html->link('Summary', array('controller'=>'programSummaries', 'actio
             <td>Pub Date</td>
             <td>RRP (Incl GST)</td>
             <td>Print Run(Units)</td>
-
+            <td>Royalty Method</td>
             <td>Total Advance Payable</td>
             <td>Jan</td>
             <td>Feb</td>
@@ -49,7 +49,7 @@ echo $this->Html->link('Summary', array('controller'=>'programSummaries', 'actio
 <!--            <td>Ebook Trade Revenue</td>-->
 
             <td>Total Ebook Units</td>
-            <td>Total Net Sales (Ebook)</td>
+            <td>Net Sales (Ebook)</td>
 
             <td>Total Units</td>
             <td>Total Net Sales</td>
@@ -85,7 +85,7 @@ echo $this->Html->link('Summary', array('controller'=>'programSummaries', 'actio
                 <td><?php echo '$'.number_format($book['Program']['RRP'],2); ?></td>
                 <td><?php echo $book['Program']['printRuns']; ?></td>
 
-
+                <td><?php echo $book['Program']['royaltyMethod']; ?></td>
                 <td><?php echo '$'.number_format($book['Royalty']['advancedPayment']); ?></td>
                 <td><?php echo $book['Program']['jan']; ?></td>
                 <td><?php echo $book['Program']['feb']; ?></td>
@@ -173,13 +173,23 @@ echo $this->Html->link('Summary', array('controller'=>'programSummaries', 'actio
             <td>Quarter 2</td>
             <td>Quarter 3</td>
             <td>Quarter 4</td>
-            <td>Total Units</td>
-            <td>Total Gross Sales</td>
-            <td>Total Net Sales(Physical)</td>
-            <td>Total Net Sales(Ebook)</td>
+            <td>Net Unit Sales (Ebook)</td>
+            <td>Net Unit Sales (Physical)</td>
+            <td>Total Net Units Sales</td>
+            <td>Total Gross Sales (Physical)</td>
+            <td>Net Sales (Physical)</td>
+            <td>Net Sales (Ebook)</td>
             <td>Total Net Sales</td>
-            <td>BackList</td>
+            <td>Print Costs</td>
+            <td>Origination Costs</td>
+            <td>Total Cost of Goods</td>
+            <td>Royalty Expense</td>
+            <td>Advance Write Down</td>
+            <td>Distribution and Sales</td>
+            <td>Marketing Cost (A$P)</td>
+            <td>Total Selling Cost</td>
             <td>Total Publication Cost</td>
+            <td>BackList</td>
             <td>Total NetContribution</td>
         </tr>
         <tr>
@@ -199,14 +209,24 @@ echo $this->Html->link('Summary', array('controller'=>'programSummaries', 'actio
             <td><?php echo $overall['quarter2']; ?></td>
             <td><?php echo $overall['quarter3']; ?></td>
             <td><?php echo $overall['quarter4']; ?></td>
+            <td><?php echo $overall['ebookUnits']; ?></td>
+            <td><?php echo $overall['physicalUnits']; ?></td>
 
             <td><?php echo $overall['totalUnits'] ?></td>
             <td><?php echo '$'.number_format($overall['totalGrossSales']); ?></td>
             <td><?php echo '$'.number_format($overall['totalNetSalesP']); ?></td>
             <td><?php echo '$'.number_format($overall['totalNetSalesE']); ?></td>
             <td><?php echo '$'.number_format($overall['totalNetSales']); ?></td>
-            <td><?php echo '$'.number_format($overall['backList']); ?></td>
+            <td><?php echo '$'.number_format($overall['totalPrintCost']); ?></td>
+            <td><?php echo '$'.number_format($overall['totalOriginationCost']); ?></td>
+            <td><?php echo '$'.number_format($overall['totalCostOfGoods']); ?></td>
+            <td><?php echo '$'.number_format($overall['royaltyExpense']); ?></td>
+            <td><?php echo '$'.number_format($overall['advanceWriteDown']); ?></td>
+            <td><?php echo '$'.number_format($overall['distributionCost']); ?></td>
+            <td><?php echo '$'.number_format($overall['marketingCost']); ?></td>
+            <td><?php echo '$'.number_format($overall['totalSellingCost']); ?> </td>
             <td><?php echo '$'.number_format($overall['totalPublicationCost']); ?></td>
+            <td><?php echo '$'.number_format($overall['backList']); ?></td>
             <?php if($overall['totalNetContribution']<0){
                 echo "<td style='color:red'>".'$'.number_format($overall['totalNetContribution'])."</h3>";
             }else{

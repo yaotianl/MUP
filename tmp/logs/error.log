@@ -4742,3 +4742,82 @@ Stack Trace:
 #8 /var/www/mup/cakephp2/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PrintSpecificationsController), Object(CakeRequest))
 #9 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #10 {main}
+2014-10-29 03:43:32 Error: [MissingControllerException] Controller class ProgramSummariesController could not be found.
+Exception Attributes: array (
+  'class' => 'ProgramSummariesController',
+  'plugin' => NULL,
+)
+Request URL: /mup/cakephp2/programSummaries/index/2014
+Stack Trace:
+#0 /var/www/mup/cakephp2/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-29 05:06:13 Error: Fatal Error (1): Call to undefined function int() in [/var/www/mup/cakephp2/app/Controller/SummariesController.php, line 128]
+2014-10-29 05:06:13 Error: [FatalErrorException] Call to undefined function int()
+Request URL: /mup/cakephp2/summaries
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/mup/ca...', 128)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/mup/ca...', 128, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/mup/ca...', 128, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-29 05:06:15 Error: Fatal Error (1): Call to undefined function int() in [/var/www/mup/cakephp2/app/Controller/SummariesController.php, line 128]
+2014-10-29 05:06:15 Error: [FatalErrorException] Call to undefined function int()
+Request URL: /mup/cakephp2/summaries
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/mup/ca...', 128)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/mup/ca...', 128, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/mup/ca...', 128, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-29 06:04:07 Error: Fatal Error (1): Class 'partent' not found in [/var/www/mup/cakephp2/app/Controller/AnnualSummariesController.php, line 10]
+2014-10-29 06:04:07 Error: [FatalErrorException] Class 'partent' not found
+Request URL: /mup/cakephp2/annualSummaries/index
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'partent'...', '/var/www/mup/ca...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'partent'...', '/var/www/mup/ca...', 10, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'partent'...', '/var/www/mup/ca...', 10, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-29 06:17:39 Error: Fatal Error (1): Call to a member function save() on a non-object in [/var/www/mup/cakephp2/app/Controller/ProgramsController.php, line 186]
+2014-10-29 06:17:39 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /mup/cakephp2/programs
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 186)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 186, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 186, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-29 06:19:15 Error: Fatal Error (1): Call to a member function save() on a non-object in [/var/www/mup/cakephp2/app/Controller/ProgramsController.php, line 186]
+2014-10-29 06:19:15 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /mup/cakephp2/programs
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 186)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 186, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 186, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-29 06:26:07 Error: Fatal Error (1): Call to a member function save() on a non-object in [/var/www/mup/cakephp2/app/Controller/ProgramsController.php, line 186]
+2014-10-29 06:26:07 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /mup/cakephp2/programs
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 186)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 186, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 186, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-29 06:26:37 Error: Fatal Error (1): Call to a member function save() on a non-object in [/var/www/mup/cakephp2/app/Controller/ProgramsController.php, line 186]
+2014-10-29 06:26:37 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /mup/cakephp2/programs
+Stack Trace:
+#0 /var/www/mup/cakephp2/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/mup/ca...', 186)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/mup/ca...', 186, Array)
+#2 /var/www/mup/cakephp2/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/mup/ca...', 186, Array)
+#3 /var/www/mup/cakephp2/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

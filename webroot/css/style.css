@@ -153,7 +153,7 @@ section, header, footer, aside, nav, article{
     color: #666;
     outline: none;
     height:20px;
-    width: 60px;
+    width: 70px;
     text-align: center;
 }
 .input_rate {
@@ -164,7 +164,7 @@ section, header, footer, aside, nav, article{
     color: #666;
     outline: none;
     height:20px;
-    width: 60px;
+    width: 70px;
     text-align: center;
 }
 
@@ -426,7 +426,7 @@ li.active {
 #budget {
     position: relative;
     left: 25%;
-    top: -230px;
+    top: -285px;
     width: 65%;
     padding-left: 15px;
     margin: 10px;

@@ -96,16 +96,20 @@ class SummariesController extends AppController{
             }
 
         }
-
+        $result = round($result);
         // Default rate for the distribution and advertising
         $distributionRate = $book['SalesForecast']['distributionRate']/100;
         $advertisingRate = $book['SalesForecast']['advertisingRate']/100;
 
         $distribution = $distributionRate * ($book['SalesForecast']['totalReceipts']+$book['SalesForecast']['totalReceiptsEbook']);
         $advertising = $advertisingRate * ($book['SalesForecast']['totalReceipts']+$book['SalesForecast']['totalReceiptsEbook']);
+        $distribution = round($distribution);
+        $advertising = round($advertising);
 
         $totalIncome = $book['SalesForecast']['totalReceipts']+$book['SalesForecast']['totalReceiptsEbook']+$book['Royalty']['rightsIncomeSplit']*$book['SalesForecast']['forcastRightsIncome'];
         $totalProductionCost = $result+$distribution+$advertising+$book['EditorialOrigination']['totalEditorial']+$book['ProductionOrigination']['totalProduction']+$book['PrintSpecification']['totalPrintQuotations'];
+        $totalIncome = round($totalIncome);
+        $totalProductionCost = round($totalProductionCost);
         // An associative array that contains all details for the summary/business case budget, refer to the database format
         $summary = array(
             'Summary' => array(
@@ -203,7 +207,7 @@ class SummariesController extends AppController{
         if ($book['Royalty']['advancedPayment']-$royalty>=0) {
             $advanceWriteDown = $book['Royalty']['advancedPayment']-$royalty;
         }
-        $totalCost = $advanceWriteDown+$royalty+$distribution+$advertising+$book['EditorialOrigination']['totalEditorial']+$book['ProductionOrigination']['totalProduction']+$book['PrintSpecification']['totalPrintQuotations'];
+        $totalCost = round($advanceWriteDown+$royalty+$distribution+$advertising+$book['EditorialOrigination']['totalEditorial']+$book['ProductionOrigination']['totalProduction']+$book['PrintSpecification']['totalPrintQuotations']);
         if($book['BusinessCase']['totalContribution'] != null) {
             $businessCase = $book['BusinessCase']['totalContribution'];
         }

@@ -44,6 +44,14 @@ $this->Paginator->options(array(
                 <td> <label class="label1">Advertising & Promotion Rate</label></td>
                 <td> <input type="text" class="input_rate" id='ad' disabled='disabled' value="<?php echo ($sum['advertisingPromotionRate']*100).'%'; ?>"></td>
             </tr>
+            <tr>
+                <td><label class="label1">Imprint</label></td>
+                <td> <input type="text" class="input_rate" id='ad' disabled='disabled' value="<?php echo $book['Book']['imprint']; ?>"></td>
+            </tr>
+            <tr>
+                <td><label class="label1">Publications Date</label></td>
+                <td> <input type="text" class="input_rate" id='ad' disabled='disabled' value="<?php echo $book['Book']['publicationsDate']; ?>"></td>
+            </tr>
         </table>
         <a href="javascript:window.print()"><img style="border:none;-webkit-box-shadow:none;box-shadow:none;" src="http://cdn.printfriendly.com/button-print-grnw20.png" alt="Print Friendly and PDF"/></a>
 </div>
@@ -153,7 +161,13 @@ $this->Paginator->options(array(
     </table>
 
     <?php
-    echo $this->Html->link('create a new business case', array('controller'=>'businessCases', 'action'=>'index', 1), array('class'=>'myButton'));
+    #echo $this->Html->link('create a new business case', array('controller'=>'businessCases', 'action'=>'index', 1), array('class'=>'myButton','confirm' => 'Are you sure? You can not change it once you save it!'));
+    ?>
+
+    <?php
+    echo $this->Form->create();
+    echo $this->Form->submit('Create a new business case',array('class'=>'myButton'), array('controller'=>'businessCases', 'action'=>'index', 1));
+    echo $this->Form->end()
     ?>
 
 

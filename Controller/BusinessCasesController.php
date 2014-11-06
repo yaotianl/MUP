@@ -28,10 +28,11 @@ class BusinessCasesController extends AppController {
 //        $book = $this->BusinessCase->Book->find('first',array(
 //        'conditons'=>array('Book.id'=>$this->Session->read('Book'))));
 //        debug($book);
+        // Get all detail of that book
         $book = $this->BusinessCase->Book->find('first', array(
             'conditions'=>array('Book.id'=>$this->Session->read('Book'))
         ));
-
+        // count=0 means business case does not exist
         $count = $this->BusinessCase->find('count', array(
             'conditions'=>array('BusinessCase.book_id'=>$this->Session->read('Book'))
         ));
@@ -71,7 +72,7 @@ class BusinessCasesController extends AppController {
             )
         );
 
-        // If we already created the business case, then we will not update it. Otherwise, create it.
+        // If we have not created the business case, confirm it and create it.
         if ($count == 0 && $option == 1) {
             $businessCase = array('BusinessCase'=>$summary['Summary']);
             if ($this->BusinessCase->save($businessCase)){
@@ -82,12 +83,16 @@ class BusinessCasesController extends AppController {
                 $this->Session->setFlash('Unable to save !');
 
         }
-        elseif ($count == 1) {
+        // If we already created the business case,
+        elseif ($count == 1 && $option == 1) {
             $businessCase = $this->BusinessCase->find('first', array(
                 'conditions'=>array('BusinessCase.book_id'=>$this->Session->read('Book'))
             ));
-
-
+        }
+        else {
+            $businessCase = $this->BusinessCase->find('first', array(
+                'conditions'=>array('BusinessCase.book_id'=>$this->Session->read('Book'))
+            ));
         }
         $this->set('book', $book);
         $this->set('sum', $summary['Summary']);

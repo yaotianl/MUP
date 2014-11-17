@@ -10,7 +10,7 @@
         <h3>Admin Links</h3>
         <ul>
             <li><?php echo $this->Html->link('Create a new business case', array('controller'=>'books', 'action'=>'add'), array('class'=>'myButton')); ?></li>
-            <li><?php echo $this->Html->link('Modify an existing forcast', array('controller'=>'books', 'action'=>'viewAll'), array('class'=>'myButton')); ?></li>
+            <li><?php echo $this->Html->link('Modify an existing forecast', array('controller'=>'books', 'action'=>'viewAll'), array('class'=>'myButton')); ?></li>
         </ul>
     </aside>
 

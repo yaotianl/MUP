@@ -66,7 +66,7 @@ echo $this->Html->link('Summary', array('controller'=>'annualSummaries', 'action
             <td>Margin Ratio</td>
             <td>Net Contribution (Business Case)</td>
 
-            <td>Delete</td>
+<!--            <td>Delete</td>-->
 
         </tr>
 
@@ -139,11 +139,11 @@ echo $this->Html->link('Summary', array('controller'=>'annualSummaries', 'action
                 ?>
 
 
-                <td><?php echo $this->Form->postLink(
-                        'Delete',
-                        array('action' => 'delete', $book['Book']['id']),
-                        array('confirm' => 'Are you sure?'));
-                    ?> </td>
+<!--                <td>--><?php //echo $this->Form->postLink(
+//                        'Delete',
+//                        array('action' => 'delete', $book['Book']['id']),
+//                        array('confirm' => 'Are you sure?'));
+//                    ?><!-- </td>-->
 
             </tr>
         <?php endforeach; ?>

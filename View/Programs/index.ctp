@@ -16,7 +16,7 @@ echo $this->Form->input('year', array(
 echo $this->Form->submit('Search', array('class'=>'myButton'));
 echo $this->Form->end();
 
-echo $this->Html->link('Summary', array('controller'=>'annualSummaries', 'action'=>'index', $overall['year']), array('class'=>'myButton', 'id'=>'right'));
+//echo $this->Html->link('Summary', array('controller'=>'annualSummaries', 'action'=>'index', $overall['year']), array('class'=>'myButton', 'id'=>'right'));
 ?>
 </div>
 <div class="CSSTableGenerator" >

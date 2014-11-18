@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Class EditorialOriginationsController
+ * @author: Yaotian Lin
+ */
 class EditorialOriginationsController extends AppController {
 
     public function beforeFilter() {

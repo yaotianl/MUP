@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Class BooksController
+ * @author: Yaotian Lin
+ */
 class BooksController extends AppController {
 
 	public $name = 'Books';
@@ -28,9 +32,9 @@ class BooksController extends AppController {
      */
     public function viewAll() {
         $book = $this->Book->find('all');
-        if (!$book) {
-            throw new NotFoundException(__('There is no book currently!'));
-        }
+//        if (!$book) {
+//            throw new NotFoundException(__('There is no book currently!'));
+//        }
         //debug($book);
         $this->set('books', $book);
     }

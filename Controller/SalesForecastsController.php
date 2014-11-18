@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Class SalesForecastsController
+ * @author: Yaotian Lin
+ */
 class SalesForecastsController extends AppController {
 
     public function beforeFilter() {

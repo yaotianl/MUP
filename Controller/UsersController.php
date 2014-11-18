@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Class UsersController
+ * @author: Yaotian Lin
+ */
 class UsersController extends AppController {
 
     public function index() {

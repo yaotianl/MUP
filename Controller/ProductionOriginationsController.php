@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Class ProductionOriginationsController
+ * @author: Yaotian Lin
+ */
 class ProductionOriginationsController extends AppController {
 
     public function beforeFilter() {

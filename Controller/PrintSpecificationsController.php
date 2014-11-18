@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Class PrintSpecificationsController
+ * @author: Yaotian Lin
+ */
 class PrintSpecificationsController extends AppController {
 
     public function beforeFilter() {

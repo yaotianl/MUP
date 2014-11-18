@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Class RoyaltiesController
+ * @author: Yaotian Lin
+ */
 class RoyaltiesController extends AppController {
 
     public function beforeFilter() {

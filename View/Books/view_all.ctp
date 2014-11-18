@@ -15,18 +15,18 @@
             <td>Net Sales(Units)</td>
 
             <td>Total Advance Payable</td>
-            <td>Jan</td>
-            <td>Feb</td>
-            <td>Mar</td>
-            <td>Apr</td>
-            <td>May</td>
-            <td>Jun</td>
-            <td>Jul</td>
-            <td>Aug</td>
-            <td>Sep</td>
-            <td>Oct</td>
-            <td>Nov</td>
-            <td>Dec</td>
+<!--            <td>Jan</td>-->
+<!--            <td>Feb</td>-->
+<!--            <td>Mar</td>-->
+<!--            <td>Apr</td>-->
+<!--            <td>May</td>-->
+<!--            <td>Jun</td>-->
+<!--            <td>Jul</td>-->
+<!--            <td>Aug</td>-->
+<!--            <td>Sep</td>-->
+<!--            <td>Oct</td>-->
+<!--            <td>Nov</td>-->
+<!--            <td>Dec</td>-->
 
             <td>Total Physical Units</td>
             <td>Gross Sales</td>
@@ -39,7 +39,7 @@
 
             <td>Print Cost (incl.Stoct WD)</td>
             <td>Origination Cost</td>
-            <td>Title Subsidy</td>
+<!--            <td>Title Subsidy</td>-->
 
             <td>Royalty Cost</td>
             <td>Advance Write Down</td>
@@ -48,10 +48,11 @@
             <td>Marketing Cost(A&P)</td>
             <td>Total Publication Costs</td>
             <td>Net Contribution (Forecast)</td>
-            <td>Net Contribution (Business Case)</td>
+<!--            <td>Net Contribution (Business Case)</td>-->
 
-            <td>Created</td>
-            <td>Publishcation Date</td>
+<!--            <td>Created</td>-->
+<!--            <td>Publishcation Date</td>-->
+            <td>Delete</td>
         </tr>
 
         <!-- Here is where we loop through our $posts array, printing out post info -->
@@ -84,7 +85,7 @@
                     while ($month <= 12) {
                         // Keep the format 01 - 12
                         if ($start > $month) {
-                            ?><td></td><?php
+//                            ?><!--<td></td>--><?php
                         }
                         else {
                             if ($m < 10)
@@ -92,7 +93,7 @@
                             else
                                 $mon = $m.'monthNetUnits';
 
-                            ?><td><?php echo $book['SalesForecast'][$mon]; ?></td>
+//                            ?><!--<td>--><?php //echo $book['SalesForecast'][$mon]; ?><!--</td>-->
                             <?php
                             $m += 1;
                             $totalUnit += $book['SalesForecast'][$mon];
@@ -115,7 +116,6 @@
 
                 <td><?php echo $book['Summary']['printPaperBinding']; ?></td>
                 <td><?php echo $book['Summary']['origination']; ?></td>
-                <td></td>
                 <td><?php echo $book['Summary']['royaltyExpense']; ?></td>
                 <td><?php echo $book['Summary']['totalBooksSold']; ?></td>
 
@@ -127,7 +127,7 @@
                 <td><?php echo $this->Form->postLink(
                         'Delete',
                         array('action' => 'delete', $book['Book']['id']),
-                        array('confirm' => 'Are you sure?'));
+                        array('confirm' => 'Are you sure? You cannot get it back!'));
                     ?> </td>
 
             </tr>

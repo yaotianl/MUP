@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset=utf-8 />
-    <title>the-nerd | Cake Basics Templates</title>
+    <title>MUP forecast management system</title>
     <?php echo $this->Html->css('style'); ?>
 
 </head>

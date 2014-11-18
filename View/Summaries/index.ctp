@@ -161,14 +161,9 @@ $this->Paginator->options(array(
     </table>
 
     <?php
-    #echo $this->Html->link('create a new business case', array('controller'=>'businessCases', 'action'=>'index', 1), array('class'=>'myButton','confirm' => 'Are you sure? You can not change it once you save it!'));
+    echo $this->Html->link('create a new business case', array('controller'=>'businessCases', 'action'=>'index', 1), array('class'=>'myButton','confirm' => 'Are you sure? You can not change it once you save it!'));
     ?>
 
-    <?php
-    echo $this->Form->create();
-    echo $this->Form->submit('Create a new business case',array('class'=>'myButton'), array('controller'=>'businessCases', 'action'=>'index', 1));
-    echo $this->Form->end()
-    ?>
 
 
 

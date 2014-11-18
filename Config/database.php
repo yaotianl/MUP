@@ -69,8 +69,8 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'lyt123',
-		'database' => 'mup',
+		'password' => 'xxx',
+		'database' => 'xxx',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
